@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>學測自然・地科 歷屆試題</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f5f2ea; --paper:#fffdf7; --ink:#1f2430; --muted:#6b7280;
+  --line:#e4ddcf; --accent:#0f6b6b; --accent-d:#0a4f4f;
+  --card:#ffffff; --shadow:0 1px 2px rgba(31,36,48,.06),0 8px 24px rgba(31,36,48,.06);
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  background:var(--bg); color:var(--ink);
+  font-family:"Noto Sans TC",system-ui,sans-serif;
+  -webkit-font-smoothing:antialiased; line-height:1.6;
+}
+.wrap{max-width:1080px;margin:0 auto;padding:32px 20px 80px}
+header.site{margin-bottom:28px}
+.eyebrow{font-size:12px;letter-spacing:.18em;color:var(--accent);font-weight:700;text-transform:uppercase}
+h1{font-family:"Noto Serif TC",serif;font-weight:700;font-size:30px;margin:6px 0 6px;letter-spacing:.01em}
+.sub{color:var(--muted);font-size:14px}
+.sub a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--line)}
+.sub a:hover{border-bottom-color:var(--accent)}
+.meta-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:14px;font-size:13px;color:var(--muted)}
+.pill{display:inline-flex;align-items:center;gap:6px;background:var(--paper);border:1px solid var(--line);padding:5px 10px;border-radius:999px}
+
+/* year bar */
+.years{position:sticky;top:0;z-index:20;background:rgba(245,242,234,.86);backdrop-filter:blur(8px);margin:0 -20px 22px;padding:12px 20px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.years-inner{display:flex;align-items:center;gap:8px;flex-wrap:wrap;max-width:1080px;margin:0 auto}
+.years-label{font-size:12px;color:var(--muted);font-weight:700;letter-spacing:.1em;margin-right:4px}
+.chip{font-family:"Noto Sans TC";font-size:14px;font-weight:500;padding:6px 14px;border-radius:999px;border:1px solid var(--line);background:var(--paper);color:var(--ink);cursor:pointer;transition:all .15s}
+.chip:hover{border-color:var(--accent);color:var(--accent)}
+.chip.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+.spacer{flex:1}
+.toggle{font-size:13px;font-weight:500;color:var(--ink);background:var(--paper);border:1px solid var(--line);padding:6px 12px;border-radius:8px;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
+.toggle:hover{border-color:var(--accent)}
+.toggle .dot{width:8px;height:8px;border-radius:50%;background:var(--muted)}
+.toggle.on .dot{background:var(--accent)}
+
+/* grid */
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+@media(max-width:760px){.grid{grid-template-columns:1fr}}
+.qcard{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column}
+.qhead{display:flex;align-items:center;justify-content:space-between;padding:10px 14px;border-bottom:1px solid var(--line);background:linear-gradient(180deg,#fbf9f3,#fffdf7)}
+.qno{font-family:"Noto Serif TC",serif;font-weight:700;font-size:15px}
+.qno .yr{color:var(--muted);font-weight:500;font-size:13px;margin-right:6px}
+.qtag{font-size:11px;color:var(--accent);background:rgba(15,107,107,.08);padding:3px 8px;border-radius:999px;font-weight:600}
+.qbody{padding:0}
+.qbody img{display:block;width:100%;height:auto}
+.ansbar{border-top:1px solid var(--line);padding:10px 14px;display:flex;align-items:center;justify-content:space-between;gap:10px;background:#fbf9f3}
+.anslabel{font-size:13px;color:var(--muted)}
+.ansval{font-family:"Noto Serif TC",serif;font-weight:700;font-size:16px;letter-spacing:.08em;color:var(--accent-d)}
+.ansval.hidden{color:transparent;user-select:none;background:#e7e1d4;border-radius:6px;padding:2px 14px}
+.ansval.hidden::before{content:"點擊顯示";color:var(--muted)}
+.reveal{font-size:13px;font-weight:500;color:var(--ink);background:#fff;border:1px solid var(--line);padding:5px 12px;border-radius:8px;cursor:pointer}
+.reveal:hover{border-color:var(--accent);color:var(--accent)}
+.src{font-size:12px;color:var(--muted);text-decoration:none;border-bottom:1px dotted var(--line)}
+.src:hover{color:var(--accent);border-color:var(--accent)}
+.empty{padding:60px 0;text-align:center;color:var(--muted);font-size:15px}
+footer{margin-top:40px;padding-top:20px;border-top:1px solid var(--line);font-size:12px;color:var(--muted);line-height:1.8}
+footer a{color:var(--accent);text-decoration:none}
+.footnote{margin-top:10px;font-size:12px;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="site">
+    <div class="eyebrow">學科能力測驗・自然考科</div>
+    <h1>地球科學 歷屆試題</h1>
+    <div class="sub">106–115 學年度學測自然科之地科試題，逐題裁切自大考中心公布之試卷 PDF。</div>
+    <div class="meta-row">
+      <span class="pill">📋 共 <strong id="cnt">0</strong> 題</span>
+      <span class="pill">🗓️ 106–115 學年度</span>
+      <span class="pill">🔗 來源：<a class="src" id="srclink" href="https://github.com/arpowchao/phy-senior" target="_blank" rel="noopener">arpowchao/phy-senior</a></span>
+    </div>
+  </header>
+
+  <div class="years">
+    <div class="years-inner">
+      <span class="years-label">學年度</span>
+      <button class="chip active" data-year="all">全部</button>
+      <div id="yearchips" style="display:flex;gap:8px;flex-wrap:wrap"></div>
+      <div class="spacer"></div>
+      <button class="toggle" id="allans"><span class="dot"></span>顯示全部答案</button>
+    </div>
+  </div>
+
+  <div class="grid" id="grid"></div>
+  <div class="empty" id="empty" style="display:none">尚無題目</div>
+
+  <footer>
+    試題來源：大學入學考試中心基金會公布之學測自然考科試卷，存放於 GitHub 個人複習專案 <a href="https://github.com/arpowchao/phy-senior" target="_blank" rel="noopener">arpowchao/phy-senior</a>。本頁僅擷取自然科中屬地球科學範疇之題目（含天文、大氣、海洋、地質、地球歷史與資源等），依原試卷逐題裁切呈現，答案取自官方選擇題答案卷。
+    <div class="footnote">註：少數題組之共用圖表已盡量併入對應題目；如「／」表示該題為非選擇題，不另列選擇題答案。</div>
+  </footer>
+</div>
+
+<script>
+const YEARS=[106,107,108,109,110,111,112,113,114,115];
+// per-year source PDF paths in arpowchao/phy-senior
+const SRC={
+  106:["99課綱/05-106學測自然試卷定稿.pdf","99課綱/05-106學測自然選擇題答案.pdf"],
+  107:["99課綱/05-107學測自然試卷定稿.pdf","99課綱/05-107學測自然答案.pdf"],
+  108:["99課綱/01-108學測自然試卷定稿.pdf","99課綱/05-108學測自然選擇題答案.pdf"],
+  109:["99課綱/05-109學測自然試卷定稿.pdf","99課綱/05-109學測自然答案.pdf"],
+  110:["99課綱/110學測自然試卷.pdf","99課綱/110學測自然答案.pdf"],
+  111:["108課綱全/06-111學測自然試卷.pdf","108課綱全/06-111學測自然選擇題答案.pdf"],
+  112:["108課綱全/06-112學測自然試卷.pdf","108課綱全/06-112學測自然選擇題答案.pdf"],
+  113:["108課綱全/06-113學測自然試題定稿.pdf","108課綱全/06-113學測自然答案.pdf"],
+  114:["108課綱全/06-114學測自然試題定稿.pdf","108課綱全/06-114學測自然答案.pdf"],
+  115:["108課綱全/06-115學測自然試卷.pdf","108課綱全/06-115學測自然答案.pdf"]
+};
+const REPO="https://github.com/arpowchao/phy-senior/blob/main/";
+function enc(s){return encodeURIComponent(s).replace(/%2F/g,'/');}
+function srcUrl(year,which){return REPO+enc(SRC[year][which]);}
+
+let DATA=[], showAll=false, activeYear="all";
+
+const ychips=document.getElementById('yearchips');
+YEARS.forEach(y=>{
+  const b=document.createElement('button');
+  b.className='chip'; b.textContent=y; b.dataset.year=y;
+  b.addEventListener('click',()=>selectYear(y));
+  ychips.appendChild(b);
+});
+document.querySelector('.chip[data-year="all"]').addEventListener('click',()=>selectYear('all'));
+
+function selectYear(y){
+  activeYear=y;
+  document.querySelectorAll('.chip').forEach(c=>c.classList.toggle('active',c.dataset.year==String(y)));
+  render();
+}
+document.getElementById('allans').addEventListener('click',function(){
+  showAll=!showAll; this.classList.toggle('on',showAll);
+  this.lastChild.textContent = showAll?'隱藏答案':'顯示全部答案';
+  render();
+});
+
+fetch('es_questions.json').then(r=>r.json()).then(d=>{
+  DATA=d.sort((a,b)=> a.year!==b.year? b.year-a.year : a.q-b.q);
+  document.getElementById('cnt').textContent=DATA.length;
+  render();
+});
+
+function render(){
+  const grid=document.getElementById('grid');
+  grid.innerHTML='';
+  const list = activeYear==='all'? DATA : DATA.filter(d=>d.year===activeYear);
+  document.getElementById('empty').style.display = list.length?'none':'block';
+  list.forEach(d=>{
+    const card=document.createElement('div'); card.className='qcard';
+    const isMulti = /[A-E]{2,}/.test(d.answer) || d.answer.length>1;
+    const ans = d.answer==='／'?'非選題':d.answer;
+    const hidden = !showAll && d.answer!=='／';
+    card.innerHTML=`
+      <div class="qhead">
+        <div class="qno"><span class="yr">${d.year}學測</span>第 ${d.q} 題</div>
+        <span class="qtag">${d.answer==='／'?'非選題':(isMulti?'多選題':'單選題')}</span>
+      </div>
+      <div class="qbody"><img loading="lazy" src="imgs/${d.img}" alt="${d.year}學測自然第${d.q}題"></div>
+      <div class="ansbar">
+        <div>
+          <span class="anslabel">答案　</span>
+          <span class="ansval ${hidden?'hidden':''}">${ans}</span>
+        </div>
+        <a class="src" href="${srcUrl(d.year,0)}" target="_blank" rel="noopener">原卷 ↗</a>
+      </div>`;
+    if(!showAll && d.answer!=='／'){
+      const rev=card.querySelector('.ansval');
+      rev.addEventListener('click',()=>rev.classList.remove('hidden'));
+    }
+    grid.appendChild(card);
+  });
+}
+</script>
+<script data-pplx-inline-edit>
+(function () {
+  if (window === window.top) return;
+
+  const allowedParentOrigins = ["https://www.perplexity.ai","https://perplexity.ai","https://testing.perplexity.ai","https://staging.perplexity.ai","https://*.preview.i.perplexity.ai","http://perplexity.localhost","http://localhost:1420","http://127.0.0.1:1420","http://localhost:3000","http://127.0.0.1:3000","http://localhost:5173","http://127.0.0.1:5173"];
+  const MAX_FONT_BYTES = 500 * 1024;
+  const MAX_TOTAL_FONT_BYTES = 2 * 1024 * 1024;
+  let scrollForwarding = false;
+  let scrollRaf = 0;
+  let trustedTopOrigin = null;
+
+  // Allow entries like "https://*.preview.i.perplexity.ai" — the wildcard
+  // matches a single DNS label (no dots), so "https://*.foo" cannot stretch
+  // across multiple labels.
+  function matchesAllowedOrigin(origin) {
+    if (!origin) return false;
+    for (const entry of allowedParentOrigins) {
+      if (!entry.includes("*")) {
+        if (entry === origin) return true;
+        continue;
+      }
+      const pattern = new RegExp(
+        "^" +
+          entry.replace(/[.+?^${}()|[\]\\]/g, "\\$&").replace(/\*/g, "[^.]+") +
+          "$",
+      );
+      if (pattern.test(origin)) return true;
+    }
+    return false;
+  }
+
+  // Trust decision: when the sender is same-origin-visible (event.origin is a
+  // real origin like https://www.perplexity.ai) we trust event.origin directly.
+  // When event.origin is "null" (opaque broker srcdoc), we fall back to the
+  // broker's stamped `parentOrigin` to identify the top window. The fallback
+  // is claim-only — we rely on the browser's native `targetOrigin` enforcement
+  // on the response path (see postToTrustedTop) to ensure replies can't be
+  // delivered to anyone but the actual top window of that claimed origin.
+  function getTrustedParentOrigin(event) {
+    const forwardedParentOrigin =
+      typeof event.data.parentOrigin === "string" ? event.data.parentOrigin : null;
+    const parentOrigin = event.origin === "null" ? forwardedParentOrigin : event.origin;
+    return matchesAllowedOrigin(parentOrigin) ? parentOrigin : null;
+  }
+
+  // All responses go to window.top with targetOrigin = the allowlisted origin.
+  // An attacker that iframes us inside their own null-origin broker can claim
+  // any parentOrigin they like, but the browser will drop the reply whenever
+  // the real top's origin doesn't match — so the screenshot never leaves.
+  function postToTrustedTop(message) {
+    if (!trustedTopOrigin) return;
+    try {
+      window.top.postMessage(message, trustedTopOrigin);
+    } catch (_error) {}
+  }
+
+  function inlineAll(original, clone) {
+    if (original.nodeType !== 1 || clone.nodeType !== 1) return;
+
+    try {
+      const computedStyle = getComputedStyle(original);
+      // cssText on a computed style is the serialized declaration in modern
+      // Chromium/Safari — a single read beats enumerating ~400 longhand
+      // properties. Firefox returns "" here, so we fall back on empty.
+      const serialized = computedStyle.cssText;
+      if (serialized) {
+        clone.style.cssText = serialized;
+      } else {
+        const parts = new Array(computedStyle.length);
+        for (let index = 0; index < computedStyle.length; index += 1) {
+          const property = computedStyle[index];
+          parts[index] = `${property}:${computedStyle.getPropertyValue(property)};`;
+        }
+        clone.style.cssText = parts.join("");
+      }
+    } catch (_error) {}
+
+    const originalChildren = original.children;
+    const clonedChildren = clone.children;
+    for (
+      let index = 0;
+      index < originalChildren.length && index < clonedChildren.length;
+      index += 1
+    ) {
+      inlineAll(originalChildren[index], clonedChildren[index]);
+    }
+  }
+
+  function extractFontUrl(srcValue) {
+    const matches = [
+      ...srcValue.matchAll(
+        /url\(["']?([^"')]+)["']?\)(?:\s*format\(["']?([^"')]+)["']?\))?/gi,
+      ),
+    ];
+    if (matches.length === 0) return null;
+    const woff2 = matches.find((m) => m[2] && m[2].toLowerCase().includes("woff2"));
+    if (woff2) return woff2[1];
+    const woff = matches.find((m) => m[2] && m[2].toLowerCase().includes("woff"));
+    if (woff) return woff[1];
+    return matches[0][1];
+  }
+
+  // Cache resolved font URL -> data URI across captures. Fonts on a page
+  // essentially never change, and a batch run emits multiple captures back to
+  // back — without this we'd refetch + re-base64 every time.
+  const fontDataUriCache = new Map();
+  const SRC_DECLARATION_RE = /src\s*:\s*[^;}]+/i;
+
+  async function fetchAsDataUri(url) {
+    if (fontDataUriCache.has(url)) return fontDataUriCache.get(url);
+    let dataUri = null;
+    try {
+      const response = await fetch(url, { mode: "cors", credentials: "omit" });
+      if (response.ok) {
+        const blob = await response.blob();
+        if (blob.size <= MAX_FONT_BYTES) {
+          dataUri = await new Promise((resolve) => {
+            const reader = new FileReader();
+            reader.onloadend = () =>
+              resolve(typeof reader.result === "string" ? reader.result : null);
+            reader.onerror = () => resolve(null);
+            reader.readAsDataURL(blob);
+          });
+        }
+      }
+    } catch (_error) {
+      dataUri = null;
+    }
+    fontDataUriCache.set(url, dataUri);
+    return dataUri;
+  }
+
+  function collectFontFaceRuleTexts() {
+    const rules = [];
+    for (const sheet of document.styleSheets) {
+      let cssRules;
+      try {
+        cssRules = sheet.cssRules;
+      } catch (_error) {
+        continue;
+      }
+      if (!cssRules) continue;
+      for (const rule of cssRules) {
+        const cssText = rule.cssText || "";
+        if (cssText.startsWith("@font-face")) rules.push(cssText);
+      }
+    }
+    return rules;
+  }
+
+  async function buildInlinedFontCss() {
+    const ruleTexts = collectFontFaceRuleTexts();
+    if (ruleTexts.length === 0) return null;
+
+    const resolved = ruleTexts.map((cssText) => {
+      if (!SRC_DECLARATION_RE.test(cssText)) return null;
+      const srcMatch = cssText.match(/src\s*:\s*([^;}]+)[;}]/i);
+      if (!srcMatch) return null;
+      const url = extractFontUrl(srcMatch[1]);
+      if (!url) return null;
+      try {
+        return { cssText, url: new URL(url, document.baseURI).href };
+      } catch (_error) {
+        return null;
+      }
+    });
+
+    const dataUris = await Promise.all(
+      resolved.map((entry) => (entry ? fetchAsDataUri(entry.url) : Promise.resolve(null))),
+    );
+
+    const inlined = [];
+    let totalBytes = 0;
+    for (let index = 0; index < resolved.length; index += 1) {
+      const entry = resolved[index];
+      const dataUri = dataUris[index];
+      if (!entry || !dataUri) continue;
+      const approxBytes = dataUri.length * 0.75;
+      if (totalBytes + approxBytes > MAX_TOTAL_FONT_BYTES) break;
+      totalBytes += approxBytes;
+      inlined.push(entry.cssText.replace(SRC_DECLARATION_RE, `src: url("${dataUri}")`));
+    }
+    return inlined.length > 0 ? inlined.join("\n") : null;
+  }
+
+  function stripExternal(clone) {
+    const images = clone.querySelectorAll("img");
+    for (let index = 0; index < images.length; index += 1) {
+      const src = images[index].getAttribute("src");
+      if (src && !src.startsWith("data:")) images[index].removeAttribute("src");
+    }
+
+    const elements = clone.querySelectorAll("*");
+    for (let index = 0; index < elements.length; index += 1) {
+      const style = elements[index].style.cssText;
+      if (style && style.includes("url(")) {
+        elements[index].style.cssText = style.replace(
+          /url\(["']?(?!data:)[^)"']*["']?\)/gi,
+          "none",
+        );
+      }
+    }
+  }
+
+  function emitScroll() {
+    scrollRaf = 0;
+    if (!scrollForwarding) return;
+    postToTrustedTop({
+      type: "INLINE_EDIT_SCROLL",
+      scrollX: window.scrollX,
+      scrollY: window.scrollY,
+    });
+  }
+
+  window.addEventListener(
+    "scroll",
+    function () {
+      if (!scrollForwarding || scrollRaf) return;
+      scrollRaf = requestAnimationFrame(emitScroll);
+    },
+    { passive: true, capture: true },
+  );
+
+  async function handleCaptureRequest(event) {
+    const requestId = event.data.requestId;
+    const scrollX = window.scrollX;
+    const scrollY = window.scrollY;
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+
+    function postResult(dataUrl) {
+      postToTrustedTop({
+        type: "INLINE_EDIT_SCREENSHOT_RESULT",
+        requestId,
+        dataUrl,
+        scrollX,
+        scrollY,
+      });
+    }
+
+    try {
+      // Wait for any pending web fonts to resolve so both inline metrics and
+      // the @font-face inlining below see the same loaded faces.
+      if (document.fonts && document.fonts.ready) {
+        try {
+          await document.fonts.ready;
+        } catch (_error) {}
+      }
+
+      const clone = document.documentElement.cloneNode(true);
+      inlineAll(document.documentElement, clone);
+
+      const removedNodes = clone.querySelectorAll("script,link[rel=\"stylesheet\"],style");
+      for (let index = 0; index < removedNodes.length; index += 1) {
+        removedNodes[index].remove();
+      }
+
+      stripExternal(clone);
+
+      // Re-embed web fonts as data-URI @font-face rules so the SVG rasterizer
+      // can resolve them — external font URLs aren't fetched during
+      // foreignObject rendering, which would otherwise force a fallback face
+      // and change text metrics.
+      const inlinedFontCss = await buildInlinedFontCss();
+      if (inlinedFontCss) {
+        const styleEl = document.createElement("style");
+        styleEl.textContent = inlinedFontCss;
+        const head = clone.querySelector("head");
+        if (head) head.appendChild(styleEl);
+        else clone.insertBefore(styleEl, clone.firstChild);
+      }
+
+      const html = new XMLSerializer().serializeToString(clone);
+      const svg =
+        `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}">` +
+        '<foreignObject width="100%" height="100%">' +
+        `<div xmlns="http://www.w3.org/1999/xhtml" style="width:${width}px;height:${height}px;overflow:hidden">` +
+        `<div style="position:relative;left:-${scrollX}px;top:-${scrollY}px">` +
+        html +
+        "</div></div></foreignObject></svg>";
+      const svgUrl = `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}`;
+      const image = new Image();
+      image.onload = function () {
+        const canvas = document.createElement("canvas");
+        canvas.width = width;
+        canvas.height = height;
+        canvas.getContext("2d").drawImage(image, 0, 0);
+        postResult(canvas.toDataURL("image/png"));
+      };
+      image.onerror = function () {
+        postResult(null);
+      };
+      image.src = svgUrl;
+    } catch (_error) {
+      postResult(null);
+    }
+  }
+
+  window.addEventListener("message", function (event) {
+    if (!event.data) return;
+    // Only accept messages from the direct parent frame. Blocks sibling /
+    // unrelated-window postMessage senders that could otherwise reach us.
+    if (event.source !== window.parent) return;
+
+    const trustedParentOrigin = getTrustedParentOrigin(event);
+    if (!trustedParentOrigin) return;
+    trustedTopOrigin = trustedParentOrigin;
+
+    if (event.data.type === "INLINE_EDIT_SCROLL_START") {
+      scrollForwarding = true;
+      emitScroll();
+      return;
+    }
+
+    if (event.data.type === "INLINE_EDIT_SCROLL_STOP") {
+      scrollForwarding = false;
+      if (scrollRaf) cancelAnimationFrame(scrollRaf);
+      scrollRaf = 0;
+      return;
+    }
+
+    if (event.data.type !== "INLINE_EDIT_CAPTURE_REQUEST") return;
+
+    handleCaptureRequest(event);
+  });
+})();
+
+
+</script></body>
+</html>
