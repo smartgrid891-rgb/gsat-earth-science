@@ -1,938 +1,2481 @@
 [
-  {
-    "year": 106,
-    "q": 18,
-    "answer": "B",
-    "img": "106_18.png"
-  },
-  {
-    "year": 106,
-    "q": 20,
-    "answer": "A",
-    "img": "106_20.png"
-  },
-  {
-    "year": 106,
-    "q": 21,
-    "answer": "E",
-    "img": "106_21.png"
-  },
-  {
-    "year": 106,
-    "q": 22,
-    "answer": "D",
-    "img": "106_22.png"
-  },
-  {
-    "year": 106,
-    "q": 39,
-    "answer": "A",
-    "img": "106_39.png"
-  },
-  {
-    "year": 106,
-    "q": 55,
-    "answer": "D",
-    "img": "106_55.png"
-  },
-  {
-    "year": 106,
-    "q": 56,
-    "answer": "E",
-    "img": "106_56.png"
-  },
-  {
-    "year": 106,
-    "q": 57,
-    "answer": "C",
-    "img": "106_57.png"
-  },
-  {
-    "year": 106,
-    "q": 62,
-    "answer": "CD",
-    "img": "106_62.png"
-  },
-  {
-    "year": 106,
-    "q": 65,
-    "answer": "ACD",
-    "img": "106_65.png"
-  },
-  {
-    "year": 106,
-    "q": 66,
-    "answer": "D",
-    "img": "106_66.png"
-  },
-  {
-    "year": 106,
-    "q": 67,
-    "answer": "BD",
-    "img": "106_67.png"
-  },
-  {
-    "year": 106,
-    "q": 68,
-    "answer": "AC",
-    "img": "106_68.png"
-  },
-  {
-    "year": 107,
-    "q": 19,
-    "answer": "A",
-    "img": "107_19.png"
-  },
-  {
-    "year": 107,
-    "q": 20,
-    "answer": "A",
-    "img": "107_20.png"
-  },
-  {
-    "year": 107,
-    "q": 21,
-    "answer": "C",
-    "img": "107_21.png"
-  },
-  {
-    "year": 107,
-    "q": 22,
-    "answer": "C",
-    "img": "107_22.png"
-  },
-  {
-    "year": 107,
-    "q": 23,
-    "answer": "A",
-    "img": "107_23.png"
-  },
-  {
-    "year": 107,
-    "q": 28,
-    "answer": "CD",
-    "img": "107_28.png"
-  },
-  {
-    "year": 107,
-    "q": 32,
-    "answer": "BE",
-    "img": "107_32.png"
-  },
-  {
-    "year": 107,
-    "q": 33,
-    "answer": "CE",
-    "img": "107_33.png"
-  },
-  {
-    "year": 107,
-    "q": 34,
-    "answer": "ACD",
-    "img": "107_34.png"
-  },
-  {
-    "year": 107,
-    "q": 35,
-    "answer": "BD",
-    "img": "107_35.png"
-  },
-  {
-    "year": 107,
-    "q": 46,
-    "answer": "ABC",
-    "img": "107_46.png"
-  },
-  {
-    "year": 107,
-    "q": 63,
-    "answer": "B",
-    "img": "107_63.png"
-  },
-  {
-    "year": 107,
-    "q": 64,
-    "answer": "B",
-    "img": "107_64.png"
-  },
-  {
-    "year": 107,
-    "q": 65,
-    "answer": "AE",
-    "img": "107_65.png"
-  },
-  {
-    "year": 107,
-    "q": 66,
-    "answer": "D",
-    "img": "107_66.png"
-  },
-  {
-    "year": 107,
-    "q": 67,
-    "answer": "CE",
-    "img": "107_67.png"
-  },
-  {
-    "year": 107,
-    "q": 68,
-    "answer": "BE",
-    "img": "107_68.png"
-  },
-  {
-    "year": 108,
-    "q": 1,
-    "answer": "B",
-    "img": "108_1.png"
-  },
-  {
-    "year": 108,
-    "q": 2,
-    "answer": "C",
-    "img": "108_2.png"
-  },
-  {
-    "year": 108,
-    "q": 3,
-    "answer": "D",
-    "img": "108_3.png"
-  },
-  {
-    "year": 108,
-    "q": 4,
-    "answer": "B",
-    "img": "108_4.png"
-  },
-  {
-    "year": 108,
-    "q": 18,
-    "answer": "BD",
-    "img": "108_18.png"
-  },
-  {
-    "year": 108,
-    "q": 19,
-    "answer": "BD",
-    "img": "108_19.png"
-  },
-  {
-    "year": 108,
-    "q": 20,
-    "answer": "CE",
-    "img": "108_20.png"
-  },
-  {
-    "year": 108,
-    "q": 37,
-    "answer": "D",
-    "img": "108_37.png"
-  },
-  {
-    "year": 108,
-    "q": 38,
-    "answer": "A",
-    "img": "108_38.png"
-  },
-  {
-    "year": 108,
-    "q": 40,
-    "answer": "CE",
-    "img": "108_40.png"
-  },
-  {
-    "year": 108,
-    "q": 43,
-    "answer": "BD",
-    "img": "108_43.png"
-  },
-  {
-    "year": 108,
-    "q": 44,
-    "answer": "D",
-    "img": "108_44.png"
-  },
-  {
-    "year": 108,
-    "q": 45,
-    "answer": "A",
-    "img": "108_45.png"
-  },
-  {
-    "year": 108,
-    "q": 46,
-    "answer": "A",
-    "img": "108_46.png"
-  },
-  {
-    "year": 108,
-    "q": 47,
-    "answer": "BCE",
-    "img": "108_47.png"
-  },
-  {
-    "year": 108,
-    "q": 48,
-    "answer": "E",
-    "img": "108_48.png"
-  },
-  {
-    "year": 108,
-    "q": 49,
-    "answer": "E",
-    "img": "108_49.png"
-  },
-  {
-    "year": 109,
-    "q": 3,
-    "answer": "B",
-    "img": "109_3.png"
-  },
-  {
-    "year": 109,
-    "q": 6,
-    "answer": "E",
-    "img": "109_6.png"
-  },
-  {
-    "year": 109,
-    "q": 18,
-    "answer": "D",
-    "img": "109_18.png"
-  },
-  {
-    "year": 109,
-    "q": 19,
-    "answer": "C",
-    "img": "109_19.png"
-  },
-  {
-    "year": 109,
-    "q": 20,
-    "answer": "D",
-    "img": "109_20.png"
-  },
-  {
-    "year": 109,
-    "q": 21,
-    "answer": "E",
-    "img": "109_21.png"
-  },
-  {
-    "year": 109,
-    "q": 22,
-    "answer": "C",
-    "img": "109_22.png"
-  },
-  {
-    "year": 109,
-    "q": 23,
-    "answer": "D",
-    "img": "109_23.png"
-  },
-  {
-    "year": 109,
-    "q": 33,
-    "answer": "ADE",
-    "img": "109_33.png"
-  },
-  {
-    "year": 109,
-    "q": 34,
-    "answer": "BD",
-    "img": "109_34.png"
-  },
-  {
-    "year": 109,
-    "q": 35,
-    "answer": "ADE",
-    "img": "109_35.png"
-  },
-  {
-    "year": 109,
-    "q": 36,
-    "answer": "ABC",
-    "img": "109_36.png"
-  },
-  {
-    "year": 109,
-    "q": 62,
-    "answer": "D",
-    "img": "109_62.png"
-  },
-  {
-    "year": 109,
-    "q": 63,
-    "answer": "C",
-    "img": "109_63.png"
-  },
-  {
-    "year": 109,
-    "q": 64,
-    "answer": "A",
-    "img": "109_64.png"
-  },
-  {
-    "year": 109,
-    "q": 65,
-    "answer": "AD",
-    "img": "109_65.png"
-  },
-  {
-    "year": 109,
-    "q": 66,
-    "answer": "BE",
-    "img": "109_66.png"
-  },
-  {
-    "year": 109,
-    "q": 68,
-    "answer": "B",
-    "img": "109_68.png"
-  },
-  {
-    "year": 110,
-    "q": 12,
-    "answer": "A",
-    "img": "110_12.png"
-  },
-  {
-    "year": 110,
-    "q": 16,
-    "answer": "C",
-    "img": "110_16.png"
-  },
-  {
-    "year": 110,
-    "q": 17,
-    "answer": "E",
-    "img": "110_17.png"
-  },
-  {
-    "year": 110,
-    "q": 18,
-    "answer": "E",
-    "img": "110_18.png"
-  },
-  {
-    "year": 110,
-    "q": 19,
-    "answer": "B",
-    "img": "110_19.png"
-  },
-  {
-    "year": 110,
-    "q": 20,
-    "answer": "B",
-    "img": "110_20.png"
-  },
-  {
-    "year": 110,
-    "q": 21,
-    "answer": "D",
-    "img": "110_21.png"
-  },
-  {
-    "year": 110,
-    "q": 22,
-    "answer": "E",
-    "img": "110_22.png"
-  },
-  {
-    "year": 110,
-    "q": 35,
-    "answer": "AD",
-    "img": "110_35.png"
-  },
-  {
-    "year": 110,
-    "q": 36,
-    "answer": "AE",
-    "img": "110_36.png"
-  },
-  {
-    "year": 110,
-    "q": 54,
-    "answer": "ADE",
-    "img": "110_54.png"
-  },
-  {
-    "year": 110,
-    "q": 62,
-    "answer": "A",
-    "img": "110_62.png"
-  },
-  {
-    "year": 110,
-    "q": 63,
-    "answer": "E",
-    "img": "110_63.png"
-  },
-  {
-    "year": 110,
-    "q": 64,
-    "answer": "B",
-    "img": "110_64.png"
-  },
-  {
-    "year": 110,
-    "q": 65,
-    "answer": "A",
-    "img": "110_65.png"
-  },
-  {
-    "year": 110,
-    "q": 66,
-    "answer": "C",
-    "img": "110_66.png"
-  },
-  {
-    "year": 110,
-    "q": 67,
-    "answer": "B",
-    "img": "110_67.png"
-  },
-  {
-    "year": 110,
-    "q": 68,
-    "answer": "AD",
-    "img": "110_68.png"
-  },
-  {
-    "year": 111,
-    "q": 1,
-    "answer": "B",
-    "img": "111_1.png"
-  },
-  {
-    "year": 111,
-    "q": 2,
-    "answer": "BE",
-    "img": "111_2.png"
-  },
-  {
-    "year": 111,
-    "q": 3,
-    "answer": "B",
-    "img": "111_3.png"
-  },
-  {
-    "year": 111,
-    "q": 4,
-    "answer": "DE",
-    "img": "111_4.png"
-  },
-  {
-    "year": 111,
-    "q": 7,
-    "answer": "D",
-    "img": "111_7.png"
-  },
-  {
-    "year": 111,
-    "q": 28,
-    "answer": "AE",
-    "img": "111_28.png"
-  },
-  {
-    "year": 111,
-    "q": 29,
-    "answer": "D",
-    "img": "111_29.png"
-  },
-  {
-    "year": 111,
-    "q": 30,
-    "answer": "CE",
-    "img": "111_30.png"
-  },
-  {
-    "year": 111,
-    "q": 31,
-    "answer": "A",
-    "img": "111_31.png"
-  },
-  {
-    "year": 111,
-    "q": 32,
-    "answer": "ADE",
-    "img": "111_32.png"
-  },
-  {
-    "year": 111,
-    "q": 33,
-    "answer": "D",
-    "img": "111_33.png"
-  },
-  {
-    "year": 111,
-    "q": 34,
-    "answer": "BCE",
-    "img": "111_34.png"
-  },
-  {
-    "year": 111,
-    "q": 35,
-    "answer": "C",
-    "img": "111_35.png"
-  },
-  {
-    "year": 111,
-    "q": 36,
-    "answer": "A",
-    "img": "111_36.png"
-  },
-  {
-    "year": 111,
-    "q": 37,
-    "answer": "CE",
-    "img": "111_37.png"
-  },
-  {
-    "year": 111,
-    "q": 38,
-    "answer": "／",
-    "img": "111_38.png"
-  },
-  {
-    "year": 111,
-    "q": 39,
-    "answer": "AD",
-    "img": "111_39.png"
-  },
-  {
-    "year": 111,
-    "q": 40,
-    "answer": "／",
-    "img": "111_40.png"
-  },
-  {
-    "year": 111,
-    "q": 41,
-    "answer": "D",
-    "img": "111_41.png"
-  },
-  {
-    "year": 111,
-    "q": 42,
-    "answer": "ABE",
-    "img": "111_42.png"
-  },
-  {
-    "year": 111,
-    "q": 43,
-    "answer": "C",
-    "img": "111_43.png"
-  },
-  {
-    "year": 111,
-    "q": 44,
-    "answer": "AB",
-    "img": "111_44.png"
-  },
-  {
-    "year": 111,
-    "q": 45,
-    "answer": "／",
-    "img": "111_45.png"
-  },
-  {
-    "year": 112,
-    "q": 1,
-    "answer": "AB",
-    "img": "112_1.png"
-  },
-  {
-    "year": 112,
-    "q": 2,
-    "answer": "A",
-    "img": "112_2.png"
-  },
-  {
-    "year": 112,
-    "q": 3,
-    "answer": "C",
-    "img": "112_3.png"
-  },
-  {
-    "year": 112,
-    "q": 4,
-    "answer": "B",
-    "img": "112_4.png"
-  },
-  {
-    "year": 112,
-    "q": 5,
-    "answer": "BE",
-    "img": "112_5.png"
-  },
-  {
-    "year": 112,
-    "q": 6,
-    "answer": "AE",
-    "img": "112_6.png"
-  },
-  {
-    "year": 112,
-    "q": 7,
-    "answer": "D",
-    "img": "112_7.png"
-  },
-  {
-    "year": 112,
-    "q": 8,
-    "answer": "AD",
-    "img": "112_8.png"
-  },
-  {
-    "year": 112,
-    "q": 9,
-    "answer": "C",
-    "img": "112_9.png"
-  },
-  {
-    "year": 112,
-    "q": 41,
-    "answer": "E",
-    "img": "112_41.png"
-  },
-  {
-    "year": 112,
-    "q": 43,
-    "answer": "A",
-    "img": "112_43.png"
-  },
-  {
-    "year": 112,
-    "q": 44,
-    "answer": "／",
-    "img": "112_44.png"
-  },
-  {
-    "year": 113,
-    "q": 28,
-    "answer": "AD",
-    "img": "113_28.png"
-  },
-  {
-    "year": 113,
-    "q": 29,
-    "answer": "B",
-    "img": "113_29.png"
-  },
-  {
-    "year": 113,
-    "q": 30,
-    "answer": "DE",
-    "img": "113_30.png"
-  },
-  {
-    "year": 113,
-    "q": 31,
-    "answer": "C",
-    "img": "113_31.png"
-  },
-  {
-    "year": 113,
-    "q": 32,
-    "answer": "D",
-    "img": "113_32.png"
-  },
-  {
-    "year": 113,
-    "q": 33,
-    "answer": "ABE",
-    "img": "113_33.png"
-  },
-  {
-    "year": 113,
-    "q": 34,
-    "answer": "BE",
-    "img": "113_34.png"
-  },
-  {
-    "year": 113,
-    "q": 35,
-    "answer": "BD",
-    "img": "113_35.png"
-  },
-  {
-    "year": 113,
-    "q": 36,
-    "answer": "C",
-    "img": "113_36.png"
-  },
-  {
-    "year": 113,
-    "q": 50,
-    "answer": "BCE",
-    "img": "113_50.png"
-  },
-  {
-    "year": 113,
-    "q": 51,
-    "answer": "／",
-    "img": "113_51.png"
-  },
-  {
-    "year": 113,
-    "q": 52,
-    "answer": "ACE",
-    "img": "113_52.png"
-  },
-  {
-    "year": 113,
-    "q": 53,
-    "answer": "／",
-    "img": "113_53.png"
-  },
-  {
-    "year": 113,
-    "q": 55,
-    "answer": "C",
-    "img": "113_55.png"
-  },
-  {
-    "year": 113,
-    "q": 56,
-    "answer": "／",
-    "img": "113_56.png"
-  },
-  {
-    "year": 114,
-    "q": 10,
-    "answer": "BCE",
-    "img": "114_10.png"
-  },
-  {
-    "year": 114,
-    "q": 11,
-    "answer": "BCD",
-    "img": "114_11.png"
-  },
-  {
-    "year": 114,
-    "q": 12,
-    "answer": "D",
-    "img": "114_12.png"
-  },
-  {
-    "year": 114,
-    "q": 13,
-    "answer": "A",
-    "img": "114_13.png"
-  },
-  {
-    "year": 114,
-    "q": 14,
-    "answer": "AE",
-    "img": "114_14.png"
-  },
-  {
-    "year": 114,
-    "q": 15,
-    "answer": "B",
-    "img": "114_15.png"
-  },
-  {
-    "year": 114,
-    "q": 16,
-    "answer": "CE",
-    "img": "114_16.png"
-  },
-  {
-    "year": 114,
-    "q": 17,
-    "answer": "A",
-    "img": "114_17.png"
-  },
-  {
-    "year": 114,
-    "q": 18,
-    "answer": "C",
-    "img": "114_18.png"
-  },
-  {
-    "year": 114,
-    "q": 19,
-    "answer": "DE",
-    "img": "114_19.png"
-  },
-  {
-    "year": 114,
-    "q": 22,
-    "answer": "C",
-    "img": "114_22.png"
-  },
-  {
-    "year": 114,
-    "q": 44,
-    "answer": "CE",
-    "img": "114_44.png"
-  },
-  {
-    "year": 114,
-    "q": 45,
-    "answer": "B",
-    "img": "114_45.png"
-  },
-  {
-    "year": 114,
-    "q": 46,
-    "answer": "／",
-    "img": "114_46.png"
-  },
-  {
-    "year": 115,
-    "q": 1,
-    "answer": "C",
-    "img": "115_1.png"
-  },
-  {
-    "year": 115,
-    "q": 2,
-    "answer": "C",
-    "img": "115_2.png"
-  },
-  {
-    "year": 115,
-    "q": 3,
-    "answer": "D",
-    "img": "115_3.png"
-  },
-  {
-    "year": 115,
-    "q": 4,
-    "answer": "A",
-    "img": "115_4.png"
-  },
-  {
-    "year": 115,
-    "q": 5,
-    "answer": "D",
-    "img": "115_5.png"
-  },
-  {
-    "year": 115,
-    "q": 6,
-    "answer": "A",
-    "img": "115_6.png"
-  },
-  {
-    "year": 115,
-    "q": 7,
-    "answer": "AE",
-    "img": "115_7.png"
-  },
-  {
-    "year": 115,
-    "q": 8,
-    "answer": "BD",
-    "img": "115_8.png"
-  },
-  {
-    "year": 115,
-    "q": 9,
-    "answer": "AC",
-    "img": "115_9.png"
-  }
+ {
+  "year": 106,
+  "q": 18,
+  "answer": "B",
+  "img": "106_18.png",
+  "category": "海洋",
+  "knowledge": [
+   "鹽度與溫鹽"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "鹽度",
+   "副熱帶",
+   "蒸發降水"
+  ]
+ },
+ {
+  "year": 106,
+  "q": 20,
+  "answer": "A",
+  "img": "106_20.png",
+  "category": "天文",
+  "knowledge": [
+   "恆星與星光"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "恆星",
+   "黑體輻射",
+   "星光顏色"
+  ]
+ },
+ {
+  "year": 106,
+  "q": 21,
+  "answer": "E",
+  "img": "106_21.png",
+  "category": "天文",
+  "knowledge": [
+   "太陽系與行星"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "地球公轉",
+   "軌道",
+   "季節"
+  ]
+ },
+ {
+  "year": 106,
+  "q": 22,
+  "answer": "D",
+  "img": "106_22.png",
+  "category": "海洋",
+  "knowledge": [
+   "鹽度與溫鹽"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "海冰",
+   "鹽度"
+  ]
+ },
+ {
+  "year": 106,
+  "q": 39,
+  "answer": "A",
+  "img": "106_39.png",
+  "category": "大氣",
+  "knowledge": [
+   "氣候與聖嬰"
+  ],
+  "ability": "圖表判讀",
+  "tags": [
+   "地表熱量",
+   "能量收支"
+  ]
+ },
+ {
+  "year": 106,
+  "q": 55,
+  "answer": "D",
+  "img": "106_55.png",
+  "category": "天文",
+  "knowledge": [
+   "太陽系與行星"
+  ],
+  "ability": "計算",
+  "tags": [
+   "節氣",
+   "公轉",
+   "克卜勒第二定律"
+  ]
+ },
+ {
+  "year": 106,
+  "q": 56,
+  "answer": "E",
+  "img": "106_56.png",
+  "category": "天文",
+  "knowledge": [
+   "太陽系與行星"
+  ],
+  "ability": "計算",
+  "tags": [
+   "節氣",
+   "公轉",
+   "面積速率"
+  ]
+ },
+ {
+  "year": 106,
+  "q": 57,
+  "answer": "C",
+  "img": "106_57.png",
+  "category": "天文",
+  "knowledge": [
+   "太陽系與行星"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "節氣",
+   "公轉",
+   "距離"
+  ]
+ },
+ {
+  "year": 106,
+  "q": 62,
+  "answer": "CD",
+  "img": "106_62.png",
+  "category": "大氣",
+  "knowledge": [
+   "氣候與聖嬰"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "緯度",
+   "太陽輻射",
+   "能量收支"
+  ]
+ },
+ {
+  "year": 106,
+  "q": 65,
+  "answer": "ACD",
+  "img": "106_65.png",
+  "category": "地質",
+  "knowledge": [
+   "板塊與構造"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "大理岩",
+   "峽谷",
+   "板塊"
+  ]
+ },
+ {
+  "year": 106,
+  "q": 66,
+  "answer": "D",
+  "img": "106_66.png",
+  "category": "地質",
+  "knowledge": [
+   "地球物理探勘"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "資源探勘",
+   "反射震波",
+   "地球物理"
+  ]
+ },
+ {
+  "year": 106,
+  "q": 67,
+  "answer": "BD",
+  "img": "106_67.png",
+  "category": "天文",
+  "knowledge": [
+   "天文觀測"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "無線電波",
+   "大氣窗",
+   "天文觀測"
+  ]
+ },
+ {
+  "year": 106,
+  "q": 68,
+  "answer": "AC",
+  "img": "106_68.png",
+  "category": "地質",
+  "knowledge": [
+   "地震與斷層"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "斷層",
+   "地震",
+   "地表錯動"
+  ]
+ },
+ {
+  "year": 107,
+  "q": 19,
+  "answer": "A",
+  "img": "107_19.png",
+  "category": "天文",
+  "knowledge": [
+   "月球與潮汐"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "月球",
+   "表面地形"
+  ]
+ },
+ {
+  "year": 107,
+  "q": 20,
+  "answer": "A",
+  "img": "107_20.png",
+  "category": "天文",
+  "knowledge": [
+   "月球與潮汐"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "潮汐",
+   "潮間帶"
+  ]
+ },
+ {
+  "year": 107,
+  "q": 21,
+  "answer": "C",
+  "img": "107_21.png",
+  "category": "海洋",
+  "knowledge": [
+   "波浪與海嘯"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "波浪",
+   "海水起伏"
+  ]
+ },
+ {
+  "year": 107,
+  "q": 22,
+  "answer": "C",
+  "img": "107_22.png",
+  "category": "大氣",
+  "knowledge": [
+   "氣壓與風"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "風向",
+   "颱風",
+   "宜蘭"
+  ]
+ },
+ {
+  "year": 107,
+  "q": 23,
+  "answer": "A",
+  "img": "107_23.png",
+  "category": "大氣",
+  "knowledge": [
+   "氣壓與風"
+  ],
+  "ability": "圖表判讀",
+  "tags": [
+   "氣壓",
+   "颱風",
+   "變化曲線"
+  ]
+ },
+ {
+  "year": 107,
+  "q": 28,
+  "answer": "CD",
+  "img": "107_28.png",
+  "category": "天文",
+  "knowledge": [
+   "宇宙與天體"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "太陽閃焰",
+   "太陽活動"
+  ]
+ },
+ {
+  "year": 107,
+  "q": 32,
+  "answer": "BE",
+  "img": "107_32.png",
+  "category": "地質",
+  "knowledge": [
+   "地震與斷層"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "921地震",
+   "斷層",
+   "河堤"
+  ]
+ },
+ {
+  "year": 107,
+  "q": 33,
+  "answer": "CE",
+  "img": "107_33.png",
+  "category": "地質",
+  "knowledge": [
+   "板塊與構造"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "維蘇威火山",
+   "龐貝",
+   "岩漿"
+  ]
+ },
+ {
+  "year": 107,
+  "q": 34,
+  "answer": "ACD",
+  "img": "107_34.png",
+  "category": "大氣",
+  "knowledge": [
+   "氣候與聖嬰"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "氣候",
+   "地表狀態",
+   "植被"
+  ]
+ },
+ {
+  "year": 107,
+  "q": 35,
+  "answer": "BD",
+  "img": "107_35.png",
+  "category": "大氣",
+  "knowledge": [
+   "水氣與降水"
+  ],
+  "ability": "圖表判讀",
+  "tags": [
+   "氣溫",
+   "露點",
+   "天氣"
+  ]
+ },
+ {
+  "year": 107,
+  "q": 46,
+  "answer": "ABC",
+  "img": "107_46.png",
+  "category": "大氣",
+  "knowledge": [
+   "氣候與聖嬰"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "溫室氣體",
+   "地表輻射"
+  ]
+ },
+ {
+  "year": 107,
+  "q": 63,
+  "answer": "B",
+  "img": "107_63.png",
+  "category": "天文",
+  "knowledge": [
+   "宇宙與天體"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "太陽",
+   "光球",
+   "日冕"
+  ]
+ },
+ {
+  "year": 107,
+  "q": 64,
+  "answer": "B",
+  "img": "107_64.png",
+  "category": "天文",
+  "knowledge": [
+   "月球與潮汐"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "月相",
+   "滿月",
+   "藍月"
+  ]
+ },
+ {
+  "year": 107,
+  "q": 65,
+  "answer": "AE",
+  "img": "107_65.png",
+  "category": "天文",
+  "knowledge": [
+   "月球與潮汐"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "月球軌道",
+   "近地點",
+   "遠地點"
+  ]
+ },
+ {
+  "year": 107,
+  "q": 66,
+  "answer": "D",
+  "img": "107_66.png",
+  "category": "地史與資源",
+  "knowledge": [
+   "地球資源"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "天然氣水合物",
+   "甲烷冰"
+  ]
+ },
+ {
+  "year": 107,
+  "q": 67,
+  "answer": "CE",
+  "img": "107_67.png",
+  "category": "地質",
+  "knowledge": [
+   "板塊與構造"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "地球分層",
+   "密度",
+   "熔融"
+  ]
+ },
+ {
+  "year": 107,
+  "q": 68,
+  "answer": "BE",
+  "img": "107_68.png",
+  "category": "地質",
+  "knowledge": [
+   "地震與斷層"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "地震波",
+   "震度",
+   "距離推論"
+  ]
+ },
+ {
+  "year": 108,
+  "q": 1,
+  "answer": "B",
+  "img": "108_1.png",
+  "category": "天文",
+  "knowledge": [
+   "宇宙與天體"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "太陽風",
+   "帶電粒子"
+  ]
+ },
+ {
+  "year": 108,
+  "q": 2,
+  "answer": "C",
+  "img": "108_2.png",
+  "category": "大氣",
+  "knowledge": [
+   "氣候與聖嬰"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "聖嬰現象",
+   "氣候",
+   "大氣海洋"
+  ]
+ },
+ {
+  "year": 108,
+  "q": 3,
+  "answer": "D",
+  "img": "108_3.png",
+  "category": "天文",
+  "knowledge": [
+   "恆星與星光"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "恆星",
+   "表面溫度",
+   "星光顏色"
+  ]
+ },
+ {
+  "year": 108,
+  "q": 4,
+  "answer": "B",
+  "img": "108_4.png",
+  "category": "海洋",
+  "knowledge": [
+   "波浪與海嘯"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "波浪",
+   "水深",
+   "海底地形"
+  ]
+ },
+ {
+  "year": 108,
+  "q": 18,
+  "answer": "BD",
+  "img": "108_18.png",
+  "category": "天文",
+  "knowledge": [
+   "月球與潮汐"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "月球公轉",
+   "潮汐",
+   "方向"
+  ]
+ },
+ {
+  "year": 108,
+  "q": 19,
+  "answer": "BD",
+  "img": "108_19.png",
+  "category": "海洋",
+  "knowledge": [
+   "波浪與海嘯"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "海嘯",
+   "溯上",
+   "破壞力"
+  ]
+ },
+ {
+  "year": 108,
+  "q": 20,
+  "answer": "CE",
+  "img": "108_20.png",
+  "category": "天文",
+  "knowledge": [
+   "日地現象"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "月相",
+   "日地月",
+   "東升"
+  ]
+ },
+ {
+  "year": 108,
+  "q": 37,
+  "answer": "D",
+  "img": "108_37.png",
+  "category": "大氣",
+  "knowledge": [
+   "颱風"
+  ],
+  "ability": "圖表判讀",
+  "tags": [
+   "颱風路徑",
+   "中心位置"
+  ]
+ },
+ {
+  "year": 108,
+  "q": 38,
+  "answer": "A",
+  "img": "108_38.png",
+  "category": "大氣",
+  "knowledge": [
+   "颱風",
+   "氣壓與風"
+  ],
+  "ability": "圖表判讀",
+  "tags": [
+   "颱風",
+   "等壓線",
+   "天氣圖"
+  ]
+ },
+ {
+  "year": 108,
+  "q": 40,
+  "answer": "CE",
+  "img": "108_40.png",
+  "category": "大氣",
+  "knowledge": [
+   "大氣結構與觀測"
+  ],
+  "ability": "圖表判讀",
+  "tags": [
+   "衛星雲圖",
+   "低雲"
+  ]
+ },
+ {
+  "year": 108,
+  "q": 43,
+  "answer": "BD",
+  "img": "108_43.png",
+  "category": "地質",
+  "knowledge": [
+   "板塊與構造"
+  ],
+  "ability": "圖表判讀",
+  "tags": [
+   "板塊",
+   "測站",
+   "移動速度"
+  ]
+ },
+ {
+  "year": 108,
+  "q": 44,
+  "answer": "D",
+  "img": "108_44.png",
+  "category": "地質",
+  "knowledge": [
+   "板塊與構造"
+  ],
+  "ability": "計算",
+  "tags": [
+   "板塊",
+   "測站距離",
+   "速率"
+  ]
+ },
+ {
+  "year": 108,
+  "q": 45,
+  "answer": "A",
+  "img": "108_45.png",
+  "category": "地質",
+  "knowledge": [
+   "岩石與地層"
+  ],
+  "ability": "圖表判讀",
+  "tags": [
+   "地質剖面",
+   "地層"
+  ]
+ },
+ {
+  "year": 108,
+  "q": 46,
+  "answer": "A",
+  "img": "108_46.png",
+  "category": "地質",
+  "knowledge": [
+   "地球物理探勘"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "油氣探勘",
+   "地層孔隙"
+  ]
+ },
+ {
+  "year": 108,
+  "q": 47,
+  "answer": "BCE",
+  "img": "108_47.png",
+  "category": "大氣",
+  "knowledge": [
+   "大氣結構與觀測"
+  ],
+  "ability": "計算",
+  "tags": [
+   "絕熱",
+   "氣塊",
+   "直減率"
+  ]
+ },
+ {
+  "year": 108,
+  "q": 48,
+  "answer": "E",
+  "img": "108_48.png",
+  "category": "海洋",
+  "knowledge": [
+   "鹽度與溫鹽"
+  ],
+  "ability": "圖表判讀",
+  "tags": [
+   "溫鹽圖",
+   "海水密度"
+  ]
+ },
+ {
+  "year": 108,
+  "q": 49,
+  "answer": "E",
+  "img": "108_49.png",
+  "category": "海洋",
+  "knowledge": [
+   "鹽度與溫鹽"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "鹽度",
+   "地中海",
+   "蒸發降雨"
+  ]
+ },
+ {
+  "year": 109,
+  "q": 3,
+  "answer": "B",
+  "img": "109_3.png",
+  "category": "天文",
+  "knowledge": [
+   "太陽系與行星"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "行星軌道",
+   "橢圓",
+   "克卜勒"
+  ]
+ },
+ {
+  "year": 109,
+  "q": 6,
+  "answer": "E",
+  "img": "109_6.png",
+  "category": "天文",
+  "knowledge": [
+   "宇宙與天體"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "星系",
+   "望遠鏡",
+   "天體"
+  ]
+ },
+ {
+  "year": 109,
+  "q": 18,
+  "answer": "D",
+  "img": "109_18.png",
+  "category": "大氣",
+  "knowledge": [
+   "氣壓與風"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "氣壓計",
+   "水銀",
+   "高度"
+  ]
+ },
+ {
+  "year": 109,
+  "q": 19,
+  "answer": "C",
+  "img": "109_19.png",
+  "category": "海洋",
+  "knowledge": [
+   "波浪與海嘯"
+  ],
+  "ability": "計算",
+  "tags": [
+   "海嘯",
+   "地震",
+   "抵達時間"
+  ]
+ },
+ {
+  "year": 109,
+  "q": 20,
+  "answer": "D",
+  "img": "109_20.png",
+  "category": "海洋",
+  "knowledge": [
+   "波浪與海嘯"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "海嘯波",
+   "特性"
+  ]
+ },
+ {
+  "year": 109,
+  "q": 21,
+  "answer": "E",
+  "img": "109_21.png",
+  "category": "地質",
+  "knowledge": [
+   "地震與斷層"
+  ],
+  "ability": "圖表判讀",
+  "tags": [
+   "震源分布",
+   "台灣"
+  ]
+ },
+ {
+  "year": 109,
+  "q": 22,
+  "answer": "C",
+  "img": "109_22.png",
+  "category": "地質",
+  "knowledge": [
+   "山崩與災害"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "山崩",
+   "台灣",
+   "因素"
+  ]
+ },
+ {
+  "year": 109,
+  "q": 23,
+  "answer": "D",
+  "img": "109_23.png",
+  "category": "地質",
+  "knowledge": [
+   "地震與斷層"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "斷層",
+   "地震波",
+   "能量"
+  ]
+ },
+ {
+  "year": 109,
+  "q": 33,
+  "answer": "ADE",
+  "img": "109_33.png",
+  "category": "天文",
+  "knowledge": [
+   "宇宙與天體"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "太陽黑子",
+   "磁場"
+  ]
+ },
+ {
+  "year": 109,
+  "q": 34,
+  "answer": "BD",
+  "img": "109_34.png",
+  "category": "天文",
+  "knowledge": [
+   "天文觀測",
+   "恆星與星光"
+  ],
+  "ability": "計算",
+  "tags": [
+   "星等",
+   "星際塵",
+   "望遠鏡"
+  ]
+ },
+ {
+  "year": 109,
+  "q": 35,
+  "answer": "ADE",
+  "img": "109_35.png",
+  "category": "大氣",
+  "knowledge": [
+   "颱風"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "颱風",
+   "台灣"
+  ]
+ },
+ {
+  "year": 109,
+  "q": 36,
+  "answer": "ABC",
+  "img": "109_36.png",
+  "category": "大氣",
+  "knowledge": [
+   "水氣與降水"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "閃電",
+   "雷"
+  ]
+ },
+ {
+  "year": 109,
+  "q": 62,
+  "answer": "D",
+  "img": "109_62.png",
+  "category": "天文",
+  "knowledge": [
+   "宇宙與天體"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "天體距離",
+   "月球",
+   "木星",
+   "織女星"
+  ]
+ },
+ {
+  "year": 109,
+  "q": 63,
+  "answer": "C",
+  "img": "109_63.png",
+  "category": "大氣",
+  "knowledge": [
+   "大氣結構與觀測"
+  ],
+  "ability": "計算",
+  "tags": [
+   "直減率",
+   "氣塊",
+   "絕熱"
+  ]
+ },
+ {
+  "year": 109,
+  "q": 64,
+  "answer": "A",
+  "img": "109_64.png",
+  "category": "大氣",
+  "knowledge": [
+   "大氣結構與觀測"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "數值預報",
+   "大氣模式",
+   "東亞"
+  ]
+ },
+ {
+  "year": 109,
+  "q": 65,
+  "answer": "AD",
+  "img": "109_65.png",
+  "category": "海洋",
+  "knowledge": [
+   "鹽度與溫鹽"
+  ],
+  "ability": "圖表判讀",
+  "tags": [
+   "聲速",
+   "海洋觀測",
+   "垂直結構"
+  ]
+ },
+ {
+  "year": 109,
+  "q": 66,
+  "answer": "BE",
+  "img": "109_66.png",
+  "category": "地質",
+  "knowledge": [
+   "岩石與地層"
+  ],
+  "ability": "圖表判讀",
+  "tags": [
+   "地層",
+   "露頭",
+   "示意圖"
+  ]
+ },
+ {
+  "year": 109,
+  "q": 68,
+  "answer": "B",
+  "img": "109_68.png",
+  "category": "天文",
+  "knowledge": [
+   "天文觀測"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "電波望遠鏡",
+   "顏斯基",
+   "暴風雨電波"
+  ]
+ },
+ {
+  "year": 110,
+  "q": 12,
+  "answer": "A",
+  "img": "110_12.png",
+  "category": "天文",
+  "knowledge": [
+   "宇宙與天體"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "宇宙演化",
+   "階段"
+  ]
+ },
+ {
+  "year": 110,
+  "q": 16,
+  "answer": "C",
+  "img": "110_16.png",
+  "category": "地質",
+  "knowledge": [
+   "地震與斷層"
+  ],
+  "ability": "圖表判讀",
+  "tags": [
+   "P波",
+   "S波",
+   "走時曲線"
+  ]
+ },
+ {
+  "year": 110,
+  "q": 17,
+  "answer": "E",
+  "img": "110_17.png",
+  "category": "海洋",
+  "knowledge": [
+   "鹽度與溫鹽"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "深海",
+   "海水性質",
+   "潛艇"
+  ]
+ },
+ {
+  "year": 110,
+  "q": 18,
+  "answer": "E",
+  "img": "110_18.png",
+  "category": "地史與資源",
+  "knowledge": [
+   "定年與地質時間"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "地球歷史",
+   "定年",
+   "重建"
+  ]
+ },
+ {
+  "year": 110,
+  "q": 19,
+  "answer": "B",
+  "img": "110_19.png",
+  "category": "大氣",
+  "knowledge": [
+   "氣壓與風"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "白貝羅",
+   "風向",
+   "高壓"
+  ]
+ },
+ {
+  "year": 110,
+  "q": 20,
+  "answer": "B",
+  "img": "110_20.png",
+  "category": "天文",
+  "knowledge": [
+   "太陽系與行星"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "自轉軸",
+   "黃道面",
+   "季節"
+  ]
+ },
+ {
+  "year": 110,
+  "q": 21,
+  "answer": "D",
+  "img": "110_21.png",
+  "category": "大氣",
+  "knowledge": [
+   "颱風"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "颱風",
+   "地形",
+   "風雨型態"
+  ]
+ },
+ {
+  "year": 110,
+  "q": 22,
+  "answer": "E",
+  "img": "110_22.png",
+  "category": "天文",
+  "knowledge": [
+   "月球與潮汐"
+  ],
+  "ability": "計算",
+  "tags": [
+   "潮汐",
+   "潮間帶",
+   "太麻里"
+  ]
+ },
+ {
+  "year": 110,
+  "q": 35,
+  "answer": "AD",
+  "img": "110_35.png",
+  "category": "大氣",
+  "knowledge": [
+   "水氣與降水"
+  ],
+  "ability": "圖表判讀",
+  "tags": [
+   "降雨量",
+   "氣候",
+   "長期變化"
+  ]
+ },
+ {
+  "year": 110,
+  "q": 36,
+  "answer": "AE",
+  "img": "110_36.png",
+  "category": "海洋",
+  "knowledge": [
+   "洋流與海流"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "海流",
+   "生成原因"
+  ]
+ },
+ {
+  "year": 110,
+  "q": 54,
+  "answer": "ADE",
+  "img": "110_54.png",
+  "category": "天文",
+  "knowledge": [
+   "宇宙與天體"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "金星",
+   "大氣層"
+  ]
+ },
+ {
+  "year": 110,
+  "q": 62,
+  "answer": "A",
+  "img": "110_62.png",
+  "category": "天文",
+  "knowledge": [
+   "日地現象"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "太陽方位",
+   "峽谷",
+   "南北"
+  ]
+ },
+ {
+  "year": 110,
+  "q": 63,
+  "answer": "E",
+  "img": "110_63.png",
+  "category": "天文",
+  "knowledge": [
+   "恆星與星光"
+  ],
+  "ability": "計算",
+  "tags": [
+   "視星等",
+   "絕對星等"
+  ]
+ },
+ {
+  "year": 110,
+  "q": 64,
+  "answer": "B",
+  "img": "110_64.png",
+  "category": "天文",
+  "knowledge": [
+   "恆星與星光"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "恆星溫度",
+   "表面溫度",
+   "星光顏色"
+  ]
+ },
+ {
+  "year": 110,
+  "q": 65,
+  "answer": "A",
+  "img": "110_65.png",
+  "category": "海洋",
+  "knowledge": [
+   "洋流與海流"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "海流",
+   "海面高度",
+   "梯度"
+  ]
+ },
+ {
+  "year": 110,
+  "q": 66,
+  "answer": "C",
+  "img": "110_66.png",
+  "category": "天文",
+  "knowledge": [
+   "天文觀測"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "星空攝影",
+   "紅色濾鏡"
+  ]
+ },
+ {
+  "year": 110,
+  "q": 67,
+  "answer": "B",
+  "img": "110_67.png",
+  "category": "地質",
+  "knowledge": [
+   "岩石與地層"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "沉積環境",
+   "岩石",
+   "鑽井"
+  ]
+ },
+ {
+  "year": 110,
+  "q": 68,
+  "answer": "AD",
+  "img": "110_68.png",
+  "category": "大氣",
+  "knowledge": [
+   "大氣結構與觀測"
+  ],
+  "ability": "圖表判讀",
+  "tags": [
+   "探空氣球",
+   "大氣觀測"
+  ]
+ },
+ {
+  "year": 111,
+  "q": 1,
+  "answer": "B",
+  "img": "111_1.png",
+  "category": "大氣",
+  "knowledge": [
+   "颱風"
+  ],
+  "ability": "計算",
+  "tags": [
+   "颱風路徑",
+   "暴風半徑",
+   "預測"
+  ]
+ },
+ {
+  "year": 111,
+  "q": 2,
+  "answer": "BE",
+  "img": "111_2.png",
+  "category": "大氣",
+  "knowledge": [
+   "颱風"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "颱風",
+   "等速率",
+   "方向改變"
+  ]
+ },
+ {
+  "year": 111,
+  "q": 3,
+  "answer": "B",
+  "img": "111_3.png",
+  "category": "天文",
+  "knowledge": [
+   "太陽系與行星"
+  ],
+  "ability": "計算",
+  "tags": [
+   "火星",
+   "地球",
+   "半徑比值",
+   "重力"
+  ]
+ },
+ {
+  "year": 111,
+  "q": 4,
+  "answer": "DE",
+  "img": "111_4.png",
+  "category": "大氣",
+  "knowledge": [
+   "氣候與聖嬰"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "基本交互作用",
+   "天氣現象"
+  ]
+ },
+ {
+  "year": 111,
+  "q": 7,
+  "answer": "D",
+  "img": "111_7.png",
+  "category": "大氣",
+  "knowledge": [
+   "氣候與聖嬰",
+   "恆星與星光"
+  ],
+  "ability": "計算",
+  "tags": [
+   "地球能量",
+   "黑體輻射",
+   "大氣",
+   "溫室效應"
+  ]
+ },
+ {
+  "year": 111,
+  "q": 28,
+  "answer": "AE",
+  "img": "111_28.png",
+  "category": "天文",
+  "knowledge": [
+   "太陽系與行星"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "火星",
+   "行星",
+   "描述"
+  ]
+ },
+ {
+  "year": 111,
+  "q": 29,
+  "answer": "D",
+  "img": "111_29.png",
+  "category": "天文",
+  "knowledge": [
+   "太陽系與行星"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "火星",
+   "隕石坑",
+   "風成沙丘"
+  ]
+ },
+ {
+  "year": 111,
+  "q": 30,
+  "answer": "CE",
+  "img": "111_30.png",
+  "category": "天文",
+  "knowledge": [
+   "日地現象"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "星跡",
+   "地球自轉",
+   "東方"
+  ]
+ },
+ {
+  "year": 111,
+  "q": 31,
+  "answer": "A",
+  "img": "111_31.png",
+  "category": "天文",
+  "knowledge": [
+   "恆星與星光"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "恆星顏色",
+   "溫度",
+   "織女星",
+   "心宿二"
+  ]
+ },
+ {
+  "year": 111,
+  "q": 32,
+  "answer": "ADE",
+  "img": "111_32.png",
+  "category": "大氣",
+  "knowledge": [
+   "水氣與降水"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "水",
+   "相變",
+   "潛熱",
+   "地球系統"
+  ]
+ },
+ {
+  "year": 111,
+  "q": 33,
+  "answer": "D",
+  "img": "111_33.png",
+  "category": "天文",
+  "knowledge": [
+   "天文觀測"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "天球",
+   "星空",
+   "古人"
+  ]
+ },
+ {
+  "year": 111,
+  "q": 34,
+  "answer": "BCE",
+  "img": "111_34.png",
+  "category": "大氣",
+  "knowledge": [
+   "大氣結構與觀測",
+   "氣壓與風"
+  ],
+  "ability": "圖表判讀",
+  "tags": [
+   "衛星雲圖",
+   "等壓線",
+   "鋒面"
+  ]
+ },
+ {
+  "year": 111,
+  "q": 35,
+  "answer": "C",
+  "img": "111_35.png",
+  "category": "大氣",
+  "knowledge": [
+   "氣候與聖嬰"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "氣候",
+   "短文",
+   "推論"
+  ]
+ },
+ {
+  "year": 111,
+  "q": 36,
+  "answer": "A",
+  "img": "111_36.png",
+  "category": "海洋",
+  "knowledge": [
+   "鹽度與溫鹽",
+   "洋流與海流"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "鹽度",
+   "黑潮",
+   "鰻魚"
+  ]
+ },
+ {
+  "year": 111,
+  "q": 37,
+  "answer": "CE",
+  "img": "111_37.png",
+  "category": "地史與資源",
+  "knowledge": [
+   "定年與地質時間"
+  ],
+  "ability": "圖表判讀",
+  "tags": [
+   "黑碳",
+   "油母質",
+   "二鉻酸"
+  ]
+ },
+ {
+  "year": 111,
+  "q": 38,
+  "answer": "／",
+  "img": "111_38.png",
+  "category": "地史與資源",
+  "knowledge": [
+   "定年與地質時間"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "黑碳",
+   "二鉻酸",
+   "分離"
+  ]
+ },
+ {
+  "year": 111,
+  "q": 39,
+  "answer": "AD",
+  "img": "111_39.png",
+  "category": "大氣",
+  "knowledge": [
+   "氣候與聖嬰"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "黑碳",
+   "懸浮微粒",
+   "氣溫",
+   "輻射"
+  ]
+ },
+ {
+  "year": 111,
+  "q": 40,
+  "answer": "／",
+  "img": "111_40.png",
+  "category": "大氣",
+  "knowledge": [
+   "氣候與聖嬰"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "黑碳",
+   "冰川",
+   "反照率"
+  ]
+ },
+ {
+  "year": 111,
+  "q": 41,
+  "answer": "D",
+  "img": "111_41.png",
+  "category": "地史與資源",
+  "knowledge": [
+   "定年與地質時間"
+  ],
+  "ability": "實驗與方法",
+  "tags": [
+   "黑碳",
+   "古土壤",
+   "實驗"
+  ]
+ },
+ {
+  "year": 111,
+  "q": 42,
+  "answer": "ABE",
+  "img": "111_42.png",
+  "category": "大氣",
+  "knowledge": [
+   "氣候與聖嬰"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "碳循環",
+   "溫室",
+   "控溫"
+  ]
+ },
+ {
+  "year": 111,
+  "q": 43,
+  "answer": "C",
+  "img": "111_43.png",
+  "category": "地質",
+  "knowledge": [
+   "岩石與地層"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "海蝕",
+   "地質作用",
+   "凹壁"
+  ]
+ },
+ {
+  "year": 111,
+  "q": 44,
+  "answer": "AB",
+  "img": "111_44.png",
+  "category": "地史與資源",
+  "knowledge": [
+   "定年與地質時間"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "碳14",
+   "定年"
+  ]
+ },
+ {
+  "year": 111,
+  "q": 45,
+  "answer": "／",
+  "img": "111_45.png",
+  "category": "地質",
+  "knowledge": [
+   "地震與斷層",
+   "板塊與構造"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "海階",
+   "地震",
+   "抬升"
+  ]
+ },
+ {
+  "year": 112,
+  "q": 1,
+  "answer": "AB",
+  "img": "112_1.png",
+  "category": "大氣",
+  "knowledge": [
+   "颱風"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "西北颱",
+   "颱風",
+   "基隆"
+  ]
+ },
+ {
+  "year": 112,
+  "q": 2,
+  "answer": "A",
+  "img": "112_2.png",
+  "category": "大氣",
+  "knowledge": [
+   "氣候與聖嬰"
+  ],
+  "ability": "圖表判讀",
+  "tags": [
+   "氣候",
+   "溫度",
+   "機率分布"
+  ]
+ },
+ {
+  "year": 112,
+  "q": 3,
+  "answer": "C",
+  "img": "112_3.png",
+  "category": "天文",
+  "knowledge": [
+   "太陽系與行星"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "火星",
+   "隕石",
+   "南極"
+  ]
+ },
+ {
+  "year": 112,
+  "q": 4,
+  "answer": "B",
+  "img": "112_4.png",
+  "category": "海洋",
+  "knowledge": [
+   "波浪與海嘯"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "瘋狗浪",
+   "波浪",
+   "海岸"
+  ]
+ },
+ {
+  "year": 112,
+  "q": 5,
+  "answer": "BE",
+  "img": "112_5.png",
+  "category": "天文",
+  "knowledge": [
+   "月球與潮汐"
+  ],
+  "ability": "圖表判讀",
+  "tags": [
+   "潮汐",
+   "海水面",
+   "潮位站"
+  ]
+ },
+ {
+  "year": 112,
+  "q": 6,
+  "answer": "AE",
+  "img": "112_6.png",
+  "category": "大氣",
+  "knowledge": [
+   "水氣與降水"
+  ],
+  "ability": "計算",
+  "tags": [
+   "溼度",
+   "乾溼球溫度計"
+  ]
+ },
+ {
+  "year": 112,
+  "q": 7,
+  "answer": "D",
+  "img": "112_7.png",
+  "category": "大氣",
+  "knowledge": [
+   "水氣與降水"
+  ],
+  "ability": "圖表判讀",
+  "tags": [
+   "降雨量",
+   "降雨日數",
+   "氣候"
+  ]
+ },
+ {
+  "year": 112,
+  "q": 8,
+  "answer": "AD",
+  "img": "112_8.png",
+  "category": "海洋",
+  "knowledge": [
+   "鹽度與溫鹽"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "鹽度",
+   "緯度",
+   "降水蒸發"
+  ]
+ },
+ {
+  "year": 112,
+  "q": 9,
+  "answer": "C",
+  "img": "112_9.png",
+  "category": "地質",
+  "knowledge": [
+   "板塊與構造",
+   "地震與斷層"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "環太平洋地震帶",
+   "板塊"
+  ]
+ },
+ {
+  "year": 112,
+  "q": 41,
+  "answer": "E",
+  "img": "112_41.png",
+  "category": "天文",
+  "knowledge": [
+   "太陽系與行星"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "火星",
+   "太空移民"
+  ]
+ },
+ {
+  "year": 112,
+  "q": 43,
+  "answer": "A",
+  "img": "112_43.png",
+  "category": "天文",
+  "knowledge": [
+   "太陽系與行星"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "火星",
+   "地球",
+   "比較"
+  ]
+ },
+ {
+  "year": 112,
+  "q": 44,
+  "answer": "／",
+  "img": "112_44.png",
+  "category": "天文",
+  "knowledge": [
+   "恆星與星光"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "火星",
+   "織女星",
+   "絕對星等"
+  ]
+ },
+ {
+  "year": 113,
+  "q": 28,
+  "answer": "AD",
+  "img": "113_28.png",
+  "category": "地質",
+  "knowledge": [
+   "板塊與構造"
+  ],
+  "ability": "圖表判讀",
+  "tags": [
+   "地質分區",
+   "台灣",
+   "地質圖"
+  ]
+ },
+ {
+  "year": 113,
+  "q": 29,
+  "answer": "B",
+  "img": "113_29.png",
+  "category": "海洋",
+  "knowledge": [
+   "洋流與海流",
+   "月球與潮汐"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "潮汐",
+   "聖嬰",
+   "時間尺度"
+  ]
+ },
+ {
+  "year": 113,
+  "q": 30,
+  "answer": "DE",
+  "img": "113_30.png",
+  "category": "大氣",
+  "knowledge": [
+   "水氣與降水"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "水氣",
+   "凝結"
+  ]
+ },
+ {
+  "year": 113,
+  "q": 31,
+  "answer": "C",
+  "img": "113_31.png",
+  "category": "地質",
+  "knowledge": [
+   "地震與斷層"
+  ],
+  "ability": "計算",
+  "tags": [
+   "地震預警",
+   "P波",
+   "S波"
+  ]
+ },
+ {
+  "year": 113,
+  "q": 32,
+  "answer": "D",
+  "img": "113_32.png",
+  "category": "大氣",
+  "knowledge": [
+   "氣壓與風"
+  ],
+  "ability": "圖表判讀",
+  "tags": [
+   "溫帶氣旋",
+   "鋒面",
+   "天氣"
+  ]
+ },
+ {
+  "year": 113,
+  "q": 33,
+  "answer": "ABE",
+  "img": "113_33.png",
+  "category": "天文",
+  "knowledge": [
+   "月球與潮汐"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "潮汐",
+   "台灣周邊"
+  ]
+ },
+ {
+  "year": 113,
+  "q": 34,
+  "answer": "BE",
+  "img": "113_34.png",
+  "category": "大氣",
+  "knowledge": [
+   "大氣結構與觀測"
+  ],
+  "ability": "計算",
+  "tags": [
+   "絕熱",
+   "氣塊",
+   "直減率"
+  ]
+ },
+ {
+  "year": 113,
+  "q": 35,
+  "answer": "BD",
+  "img": "113_35.png",
+  "category": "大氣",
+  "knowledge": [
+   "氣壓與風"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "風力",
+   "綠能"
+  ]
+ },
+ {
+  "year": 113,
+  "q": 36,
+  "answer": "C",
+  "img": "113_36.png",
+  "category": "海洋",
+  "knowledge": [
+   "洋流與海流",
+   "定年與地質時間"
+  ],
+  "ability": "圖表判讀",
+  "tags": [
+   "海水面",
+   "冰期",
+   "2萬年"
+  ]
+ },
+ {
+  "year": 113,
+  "q": 50,
+  "answer": "BCE",
+  "img": "113_50.png",
+  "category": "地史與資源",
+  "knowledge": [
+   "定年與地質時間"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "縞狀鐵礦",
+   "地球歷史"
+  ]
+ },
+ {
+  "year": 113,
+  "q": 51,
+  "answer": "／",
+  "img": "113_51.png",
+  "category": "地史與資源",
+  "knowledge": [
+   "定年與地質時間"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "縞狀鐵礦",
+   "亞鐵",
+   "無氧光合"
+  ]
+ },
+ {
+  "year": 113,
+  "q": 52,
+  "answer": "ACE",
+  "img": "113_52.png",
+  "category": "地史與資源",
+  "knowledge": [
+   "定年與地質時間"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "縞狀鐵礦",
+   "觀察推論"
+  ]
+ },
+ {
+  "year": 113,
+  "q": 53,
+  "answer": "／",
+  "img": "113_53.png",
+  "category": "地史與資源",
+  "knowledge": [
+   "定年與地質時間"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "地球歷史",
+   "事件排序"
+  ]
+ },
+ {
+  "year": 113,
+  "q": 55,
+  "answer": "C",
+  "img": "113_55.png",
+  "category": "天文",
+  "knowledge": [
+   "天文觀測"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "望遠鏡",
+   "口徑",
+   "電磁波"
+  ]
+ },
+ {
+  "year": 113,
+  "q": 56,
+  "answer": "／",
+  "img": "113_56.png",
+  "category": "大氣",
+  "knowledge": [
+   "氣候與聖嬰"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "溫室氣體",
+   "地表輻射",
+   "溫度"
+  ]
+ },
+ {
+  "year": 114,
+  "q": 10,
+  "answer": "BCE",
+  "img": "114_10.png",
+  "category": "天文",
+  "knowledge": [
+   "太陽系與行星"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "行星定義",
+   "冥王星",
+   "IAU"
+  ]
+ },
+ {
+  "year": 114,
+  "q": 11,
+  "answer": "BCD",
+  "img": "114_11.png",
+  "category": "天文",
+  "knowledge": [
+   "天文觀測"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "電磁波",
+   "天體訊號"
+  ]
+ },
+ {
+  "year": 114,
+  "q": 12,
+  "answer": "D",
+  "img": "114_12.png",
+  "category": "天文",
+  "knowledge": [
+   "日地現象"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "日食",
+   "日月地",
+   "排列"
+  ]
+ },
+ {
+  "year": 114,
+  "q": 13,
+  "answer": "A",
+  "img": "114_13.png",
+  "category": "大氣",
+  "knowledge": [
+   "氣候與聖嬰"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "冰原",
+   "反照率",
+   "氣候"
+  ]
+ },
+ {
+  "year": 114,
+  "q": 14,
+  "answer": "AE",
+  "img": "114_14.png",
+  "category": "地質",
+  "knowledge": [
+   "地震與斷層"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "斷層",
+   "地震",
+   "學校"
+  ]
+ },
+ {
+  "year": 114,
+  "q": 15,
+  "answer": "B",
+  "img": "114_15.png",
+  "category": "地質",
+  "knowledge": [
+   "板塊與構造"
+  ],
+  "ability": "圖表判讀",
+  "tags": [
+   "地震分布",
+   "板塊邊界",
+   "全球"
+  ]
+ },
+ {
+  "year": 114,
+  "q": 16,
+  "answer": "CE",
+  "img": "114_16.png",
+  "category": "地質",
+  "knowledge": [
+   "岩石與地層",
+   "板塊與構造"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "三大岩類",
+   "板塊邊界"
+  ]
+ },
+ {
+  "year": 114,
+  "q": 17,
+  "answer": "A",
+  "img": "114_17.png",
+  "category": "海洋",
+  "knowledge": [
+   "鹽度與溫鹽"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "海水鹽度"
+  ]
+ },
+ {
+  "year": 114,
+  "q": 18,
+  "answer": "C",
+  "img": "114_18.png",
+  "category": "天文",
+  "knowledge": [
+   "恆星與星光"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "視星等",
+   "木星",
+   "亮度"
+  ]
+ },
+ {
+  "year": 114,
+  "q": 19,
+  "answer": "DE",
+  "img": "114_19.png",
+  "category": "天文",
+  "knowledge": [
+   "太陽系與行星"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "太空站",
+   "軌道",
+   "同步衛星"
+  ]
+ },
+ {
+  "year": 114,
+  "q": 22,
+  "answer": "C",
+  "img": "114_22.png",
+  "category": "天文",
+  "knowledge": [
+   "太陽系與行星"
+  ],
+  "ability": "計算",
+  "tags": [
+   "太空船",
+   "都卜勒",
+   "火星"
+  ]
+ },
+ {
+  "year": 114,
+  "q": 44,
+  "answer": "CE",
+  "img": "114_44.png",
+  "category": "大氣",
+  "knowledge": [
+   "大氣結構與觀測",
+   "氣壓與風"
+  ],
+  "ability": "計算",
+  "tags": [
+   "高度",
+   "氣壓",
+   "氣溫"
+  ]
+ },
+ {
+  "year": 114,
+  "q": 45,
+  "answer": "B",
+  "img": "114_45.png",
+  "category": "大氣",
+  "knowledge": [
+   "颱風"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "颱風路徑",
+   "移動"
+  ]
+ },
+ {
+  "year": 114,
+  "q": 46,
+  "answer": "／",
+  "img": "114_46.png",
+  "category": "大氣",
+  "knowledge": [
+   "颱風"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "康芮颱風",
+   "路徑",
+   "導引氣流"
+  ]
+ },
+ {
+  "year": 115,
+  "q": 1,
+  "answer": "C",
+  "img": "115_1.png",
+  "category": "天文",
+  "knowledge": [
+   "太陽系與行星"
+  ],
+  "ability": "計算",
+  "tags": [
+   "光速",
+   "太陽距離",
+   "月球"
+  ]
+ },
+ {
+  "year": 115,
+  "q": 2,
+  "answer": "C",
+  "img": "115_2.png",
+  "category": "天文",
+  "knowledge": [
+   "宇宙與天體"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "天體年齡",
+   "光年",
+   "恆星"
+  ]
+ },
+ {
+  "year": 115,
+  "q": 3,
+  "answer": "D",
+  "img": "115_3.png",
+  "category": "天文",
+  "knowledge": [
+   "天文觀測"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "天文觀測",
+   "大氣窗",
+   "電磁波段"
+  ]
+ },
+ {
+  "year": 115,
+  "q": 4,
+  "answer": "A",
+  "img": "115_4.png",
+  "category": "大氣",
+  "knowledge": [
+   "水氣與降水"
+  ],
+  "ability": "圖表判讀",
+  "tags": [
+   "水氣壓",
+   "飽和",
+   "凝結",
+   "露點"
+  ]
+ },
+ {
+  "year": 115,
+  "q": 5,
+  "answer": "D",
+  "img": "115_5.png",
+  "category": "天文",
+  "knowledge": [
+   "太陽系與行星"
+  ],
+  "ability": "圖表判讀",
+  "tags": [
+   "地球自轉",
+   "古生物",
+   "珊瑚"
+  ]
+ },
+ {
+  "year": 115,
+  "q": 6,
+  "answer": "A",
+  "img": "115_6.png",
+  "category": "大氣",
+  "knowledge": [
+   "颱風"
+  ],
+  "ability": "推論分析",
+  "tags": [
+   "颱風",
+   "風場",
+   "氣壓",
+   "降雨"
+  ]
+ },
+ {
+  "year": 115,
+  "q": 7,
+  "answer": "AE",
+  "img": "115_7.png",
+  "category": "地質",
+  "knowledge": [
+   "地震與斷層",
+   "板塊與構造"
+  ],
+  "ability": "概念理解",
+  "tags": [
+   "地震",
+   "海嘯",
+   "板塊邊界",
+   "預警"
+  ]
+ },
+ {
+  "year": 115,
+  "q": 8,
+  "answer": "BD",
+  "img": "115_8.png",
+  "category": "海洋",
+  "knowledge": [
+   "波浪與海嘯",
+   "地震與斷層"
+  ],
+  "ability": "計算",
+  "tags": [
+   "海嘯",
+   "P波",
+   "S波",
+   "預警時間"
+  ]
+ },
+ {
+  "year": 115,
+  "q": 9,
+  "answer": "AC",
+  "img": "115_9.png",
+  "category": "大氣",
+  "knowledge": [
+   "氣候與聖嬰"
+  ],
+  "ability": "圖表判讀",
+  "tags": [
+   "氣候變遷",
+   "花粉",
+   "孢子",
+   "沉積物"
+  ]
+ }
 ]

@@ -3,180 +3,237 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>學測自然・地科 歷屆試題</title>
+<title>學測自然・地球科學 歷屆試題（106-115 學年度）</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600;700&family=Noto+Sans+TC:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-:root{
-  --bg:#f5f2ea; --paper:#fffdf7; --ink:#1f2430; --muted:#6b7280;
-  --line:#e4ddcf; --accent:#0f6b6b; --accent-d:#0a4f4f;
-  --card:#ffffff; --shadow:0 1px 2px rgba(31,36,48,.06),0 8px 24px rgba(31,36,48,.06);
-}
-*{box-sizing:border-box}
-html,body{margin:0;padding:0}
-body{
-  background:var(--bg); color:var(--ink);
-  font-family:"Noto Sans TC",system-ui,sans-serif;
-  -webkit-font-smoothing:antialiased; line-height:1.6;
-}
-.wrap{max-width:1080px;margin:0 auto;padding:32px 20px 80px}
-header.site{margin-bottom:28px}
-.eyebrow{font-size:12px;letter-spacing:.18em;color:var(--accent);font-weight:700;text-transform:uppercase}
-h1{font-family:"Noto Serif TC",serif;font-weight:700;font-size:30px;margin:6px 0 6px;letter-spacing:.01em}
-.sub{color:var(--muted);font-size:14px}
-.sub a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--line)}
-.sub a:hover{border-bottom-color:var(--accent)}
-.meta-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:14px;font-size:13px;color:var(--muted)}
-.pill{display:inline-flex;align-items:center;gap:6px;background:var(--paper);border:1px solid var(--line);padding:5px 10px;border-radius:999px}
-
-/* year bar */
-.years{position:sticky;top:0;z-index:20;background:rgba(245,242,234,.86);backdrop-filter:blur(8px);margin:0 -20px 22px;padding:12px 20px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.years-inner{display:flex;align-items:center;gap:8px;flex-wrap:wrap;max-width:1080px;margin:0 auto}
-.years-label{font-size:12px;color:var(--muted);font-weight:700;letter-spacing:.1em;margin-right:4px}
-.chip{font-family:"Noto Sans TC";font-size:14px;font-weight:500;padding:6px 14px;border-radius:999px;border:1px solid var(--line);background:var(--paper);color:var(--ink);cursor:pointer;transition:all .15s}
-.chip:hover{border-color:var(--accent);color:var(--accent)}
-.chip.active{background:var(--accent);color:#fff;border-color:var(--accent)}
-.spacer{flex:1}
-.toggle{font-size:13px;font-weight:500;color:var(--ink);background:var(--paper);border:1px solid var(--line);padding:6px 12px;border-radius:8px;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
-.toggle:hover{border-color:var(--accent)}
-.toggle .dot{width:8px;height:8px;border-radius:50%;background:var(--muted)}
-.toggle.on .dot{background:var(--accent)}
-
-/* grid */
-.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
-@media(max-width:760px){.grid{grid-template-columns:1fr}}
-.qcard{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column}
-.qhead{display:flex;align-items:center;justify-content:space-between;padding:10px 14px;border-bottom:1px solid var(--line);background:linear-gradient(180deg,#fbf9f3,#fffdf7)}
-.qno{font-family:"Noto Serif TC",serif;font-weight:700;font-size:15px}
-.qno .yr{color:var(--muted);font-weight:500;font-size:13px;margin-right:6px}
-.qtag{font-size:11px;color:var(--accent);background:rgba(15,107,107,.08);padding:3px 8px;border-radius:999px;font-weight:600}
-.qbody{padding:0}
-.qbody img{display:block;width:100%;height:auto}
-.ansbar{border-top:1px solid var(--line);padding:10px 14px;display:flex;align-items:center;justify-content:space-between;gap:10px;background:#fbf9f3}
-.anslabel{font-size:13px;color:var(--muted)}
-.ansval{font-family:"Noto Serif TC",serif;font-weight:700;font-size:16px;letter-spacing:.08em;color:var(--accent-d)}
-.ansval.hidden{color:transparent;user-select:none;background:#e7e1d4;border-radius:6px;padding:2px 14px}
-.ansval.hidden::before{content:"點擊顯示";color:var(--muted)}
-.reveal{font-size:13px;font-weight:500;color:var(--ink);background:#fff;border:1px solid var(--line);padding:5px 12px;border-radius:8px;cursor:pointer}
-.reveal:hover{border-color:var(--accent);color:var(--accent)}
-.src{font-size:12px;color:var(--muted);text-decoration:none;border-bottom:1px dotted var(--line)}
-.src:hover{color:var(--accent);border-color:var(--accent)}
-.empty{padding:60px 0;text-align:center;color:var(--muted);font-size:15px}
-footer{margin-top:40px;padding-top:20px;border-top:1px solid var(--line);font-size:12px;color:var(--muted);line-height:1.8}
-footer a{color:var(--accent);text-decoration:none}
-.footnote{margin-top:10px;font-size:12px;color:var(--muted)}
+  :root{
+    --paper:#f5f2ea; --paper2:#efeadd; --ink:#1f2430; --muted:#6b6f78;
+    --line:#ddd6c4; --teal:#0f6b6b; --teal-soft:#e3eded; --gold:#b07d2b;
+    --cat天文:#3b5a8a; --cat大氣:#2f7d8f; --cat海洋:#1f6f7a; --cat地質:#8a5a2b; --cat地史與資源:#6a4f7a;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:"Noto Sans TC",sans-serif;background:var(--paper);color:var(--ink);line-height:1.6}
+  a{color:var(--teal);text-decoration:none}
+  .wrap{max-width:1180px;margin:0 auto;padding:28px 20px 120px}
+  header{text-align:center;margin-bottom:18px}
+  h1{font-family:"Noto Serif TC",serif;font-size:30px;margin:0;letter-spacing:1px}
+  .sub{color:var(--muted);font-size:14px;margin-top:6px}
+  .meta{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:12px;font-size:13px;color:var(--muted)}
+  .meta b{color:var(--ink);font-weight:600}
+  .src{font-size:12px;color:var(--gold)}
+  /* toolbar */
+  .toolbar{position:sticky;top:0;z-index:20;background:rgba(245,242,234,.92);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);padding:10px 0;margin-bottom:22px}
+  .toolbar-inner{max-width:1180px;margin:0 auto;padding:0 20px;display:flex;flex-direction:column;gap:10px}
+  .row{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+  .seg{display:inline-flex;background:var(--paper2);border-radius:8px;padding:3px;border:1px solid var(--line)}
+  .seg button{border:0;background:transparent;font:inherit;padding:6px 12px;border-radius:6px;cursor:pointer;color:var(--muted);font-weight:600}
+  .seg button.on{background:#fff;color:var(--teal);box-shadow:0 1px 2px rgba(0,0,0,.08)}
+  .label{font-size:12px;color:var(--muted);margin-right:2px;font-weight:600}
+  .chip{border:1px solid var(--line);background:#fff;border-radius:999px;padding:4px 11px;font-size:13px;cursor:pointer;color:var(--ink);font-weight:500;transition:.12s}
+  .chip:hover{border-color:var(--teal);color:var(--teal)}
+  .chip.on{background:var(--teal);color:#fff;border-color:var(--teal)}
+  .chip.kp{font-size:12px;padding:3px 9px}
+  .right{margin-left:auto;display:flex;gap:8px;align-items:center}
+  .showall{font-size:13px;cursor:pointer;border:1px solid var(--line);background:#fff;border-radius:8px;padding:6px 11px;font-weight:600}
+  .showall.on{background:var(--teal);color:#fff;border-color:var(--teal)}
+  input.search{font:inherit;padding:6px 11px;border:1px solid var(--line);border-radius:8px;background:#fff;width:140px}
+  /* groups */
+  .group{margin-bottom:34px;scroll-margin-top:120px}
+  .group-head{display:flex;align-items:baseline;gap:10px;border-bottom:2px solid var(--line);padding-bottom:6px;margin-bottom:14px}
+  .group-head h2{font-family:"Noto Serif TC",serif;font-size:22px;margin:0}
+  .group-head .cnt{color:var(--muted);font-size:13px}
+  .subgroup{margin-bottom:22px;scroll-margin-top:120px}
+  .subgroup h3{font-size:15px;color:var(--muted);margin:0 0 10px;font-weight:600;letter-spacing:.5px}
+  .subgroup h3 .n{color:var(--teal)}
+  .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+  @media(max-width:760px){.grid{grid-template-columns:1fr}.wrap{padding:18px 12px 100px}}
+  .card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px 14px 12px;box-shadow:0 1px 2px rgba(0,0,0,.03)}
+  .qhead{display:flex;align-items:center;gap:8px;margin-bottom:8px;flex-wrap:wrap}
+  .qno{font-family:"Noto Serif TC",serif;font-weight:700;font-size:15px}
+  .tagcat{font-size:11px;font-weight:700;padding:2px 8px;border-radius:4px;color:#fff}
+  .kpchips{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:8px}
+  .kpchip{font-size:11px;background:var(--teal-soft);color:var(--teal);border-radius:4px;padding:2px 7px;font-weight:600}
+  .abchip{font-size:11px;background:#f0ece0;color:var(--gold);border-radius:4px;padding:2px 7px;font-weight:600}
+  .tgchip{font-size:11px;background:var(--paper2);color:var(--muted);border-radius:4px;padding:2px 6px}
+  .ansline{display:flex;align-items:center;gap:10px;margin-top:10px;padding-top:9px;border-top:1px dashed var(--line);flex-wrap:wrap}
+  .ansval{font-family:"Noto Serif TC",serif;font-weight:700;font-size:18px;min-width:34px;text-align:center}
+  .ansval.hidden{color:transparent}
+  .ansval.hidden::before{content:"點擊顯示";font-family:"Noto Sans TC",sans-serif;font-weight:500;font-size:13px;color:var(--muted);display:inline-block}
+  .ansbtn{font-size:13px;cursor:pointer;border:1px solid var(--line);background:var(--paper2);border-radius:6px;padding:3px 9px;font-weight:500}
+  .empty{grid-column:1/-1;text-align:center;color:var(--muted);padding:50px 0;font-size:14px}
 </style>
 </head>
 <body>
 <div class="wrap">
-  <header class="site">
-    <div class="eyebrow">學科能力測驗・自然考科</div>
+  <header>
     <h1>地球科學 歷屆試題</h1>
-    <div class="sub">106–115 學年度學測自然科之地科試題，逐題裁切自大考中心公布之試卷 PDF。</div>
-    <div class="meta-row">
-      <span class="pill">📋 共 <strong id="cnt">0</strong> 題</span>
-      <span class="pill">🗓️ 106–115 學年度</span>
-      <span class="pill">🔗 來源：<a class="src" id="srclink" href="https://github.com/arpowchao/phy-senior" target="_blank" rel="noopener">arpowchao/phy-senior</a></span>
+    <div class="sub">學科能力測驗 · 自然考科</div>
+    <div class="meta">
+      <span><b>106–115</b> 學年度</span>
+      <span><b id="qcount">0</b> 題</span>
+      <span class="src">資料來源：<a href="https://github.com/arpowchao/phy-senior" target="_blank" rel="noopener">arpowchao/phy-senior</a> · <a href="https://github.com/smartgrid891-rgb/gsat-earth-science" target="_blank" rel="noopener">本站 repo</a></span>
     </div>
   </header>
 
-  <div class="years">
-    <div class="years-inner">
-      <span class="years-label">學年度</span>
-      <button class="chip active" data-year="all">全部</button>
-      <div id="yearchips" style="display:flex;gap:8px;flex-wrap:wrap"></div>
-      <div class="spacer"></div>
-      <button class="toggle" id="allans"><span class="dot"></span>顯示全部答案</button>
+  <div class="toolbar">
+    <div class="toolbar-inner">
+      <div class="row">
+        <div class="seg" id="modeseg">
+          <button class="on" data-mode="year">依年份練習</button>
+          <button data-mode="kp">依知識點練習</button>
+        </div>
+        <div class="right">
+          <input class="search" id="search" placeholder="搜尋標籤/關鍵字">
+          <button class="showall" id="showall">顯示全部答案</button>
+        </div>
+      </div>
+      <div class="row" id="yearrow"></div>
+      <div class="row" id="catrow" style="display:none"></div>
+      <div class="row" id="abilrow"></div>
     </div>
   </div>
 
-  <div class="grid" id="grid"></div>
-  <div class="empty" id="empty" style="display:none">尚無題目</div>
-
-  <footer>
-    試題來源：大學入學考試中心基金會公布之學測自然考科試卷，存放於 GitHub 個人複習專案 <a href="https://github.com/arpowchao/phy-senior" target="_blank" rel="noopener">arpowchao/phy-senior</a>。本頁僅擷取自然科中屬地球科學範疇之題目（含天文、大氣、海洋、地質、地球歷史與資源等），依原試卷逐題裁切呈現，答案取自官方選擇題答案卷。
-    <div class="footnote">註：少數題組之共用圖表已盡量併入對應題目；如「／」表示該題為非選擇題，不另列選擇題答案。</div>
-  </footer>
+  <div id="content"></div>
 </div>
 
 <script>
-const YEARS=[106,107,108,109,110,111,112,113,114,115];
-// per-year source PDF paths in arpowchao/phy-senior
-const SRC={
-  106:["99課綱/05-106學測自然試卷定稿.pdf","99課綱/05-106學測自然選擇題答案.pdf"],
-  107:["99課綱/05-107學測自然試卷定稿.pdf","99課綱/05-107學測自然答案.pdf"],
-  108:["99課綱/01-108學測自然試卷定稿.pdf","99課綱/05-108學測自然選擇題答案.pdf"],
-  109:["99課綱/05-109學測自然試卷定稿.pdf","99課綱/05-109學測自然答案.pdf"],
-  110:["99課綱/110學測自然試卷.pdf","99課綱/110學測自然答案.pdf"],
-  111:["108課綱全/06-111學測自然試卷.pdf","108課綱全/06-111學測自然選擇題答案.pdf"],
-  112:["108課綱全/06-112學測自然試卷.pdf","108課綱全/06-112學測自然選擇題答案.pdf"],
-  113:["108課綱全/06-113學測自然試題定稿.pdf","108課綱全/06-113學測自然答案.pdf"],
-  114:["108課綱全/06-114學測自然試題定稿.pdf","108課綱全/06-114學測自然答案.pdf"],
-  115:["108課綱全/06-115學測自然試卷.pdf","108課綱全/06-115學測自然答案.pdf"]
-};
-const REPO="https://github.com/arpowchao/phy-senior/blob/main/";
-function enc(s){return encodeURIComponent(s).replace(/%2F/g,'/');}
-function srcUrl(year,which){return REPO+enc(SRC[year][which]);}
+let DATA=[], STATE={mode:'year',year:'all',cat:'all',abil:'all',search:'',showall:false};
+const CATS=['天文','大氣','海洋','地質','地史與資源'];
+const CATVAR=c=>('--cat'+c).replace(/與資源/,'');
+const ABILS=['概念理解','圖表判讀','計算','推論分析','實驗與方法'];
 
-let DATA=[], showAll=false, activeYear="all";
+fetch('es_questions.json').then(r=>r.json()).then(d=>{DATA=d;document.getElementById('qcount').textContent=d.length;build()});
 
-const ychips=document.getElementById('yearchips');
-YEARS.forEach(y=>{
-  const b=document.createElement('button');
-  b.className='chip'; b.textContent=y; b.dataset.year=y;
-  b.addEventListener('click',()=>selectYear(y));
-  ychips.appendChild(b);
-});
-document.querySelector('.chip[data-year="all"]').addEventListener('click',()=>selectYear('all'));
-
-function selectYear(y){
-  activeYear=y;
-  document.querySelectorAll('.chip').forEach(c=>c.classList.toggle('active',c.dataset.year==String(y)));
-  render();
+function build(){
+  buildChips();render();
 }
-document.getElementById('allans').addEventListener('click',function(){
-  showAll=!showAll; this.classList.toggle('on',showAll);
-  this.lastChild.textContent = showAll?'隱藏答案':'顯示全部答案';
-  render();
-});
+function buildChips(){
+  const yr=document.getElementById('yearrow');yr.innerHTML='';
+  const yall=mkchip('全部','all','year');yr.appendChild(yall);
+  for(let y=106;y<=115;y++)yr.appendChild(mkchip(y+' 學年度',String(y),'year'));
+  const cr=document.getElementById('catrow');cr.innerHTML='';
+  cr.appendChild(mkchip('全部類別','all','cat'));
+  CATS.forEach(c=>cr.appendChild(mkchip(c,c,'cat','kp')));
+  const ar=document.getElementById('abilrow');ar.innerHTML='<span class="label">能力</span>';
+  ar.appendChild(mkchip('全部','all','abil','kp'));
+  ABILS.forEach(a=>ar.appendChild(mkchip(a,a,'abil','kp')));
+}
+function mkchip(label,val,key,cls){
+  const b=document.createElement('button');
+  b.className='chip'+(cls?' '+cls:'');
+  b.textContent=label;
+  b.dataset.val=val;
+  if(STATE[key]===val)b.classList.add('on');
+  b.onclick=()=>{STATE[key]=val;buildChips();render();};
+  return b;
+}
 
-fetch('es_questions.json').then(r=>r.json()).then(d=>{
-  DATA=d.sort((a,b)=> a.year!==b.year? b.year-a.year : a.q-b.q);
-  document.getElementById('cnt').textContent=DATA.length;
-  render();
-});
-
-function render(){
-  const grid=document.getElementById('grid');
-  grid.innerHTML='';
-  const list = activeYear==='all'? DATA : DATA.filter(d=>d.year===activeYear);
-  document.getElementById('empty').style.display = list.length?'none':'block';
-  list.forEach(d=>{
-    const card=document.createElement('div'); card.className='qcard';
-    const isMulti = /[A-E]{2,}/.test(d.answer) || d.answer.length>1;
-    const ans = d.answer==='／'?'非選題':d.answer;
-    const hidden = !showAll && d.answer!=='／';
-    card.innerHTML=`
-      <div class="qhead">
-        <div class="qno"><span class="yr">${d.year}學測</span>第 ${d.q} 題</div>
-        <span class="qtag">${d.answer==='／'?'非選題':(isMulti?'多選題':'單選題')}</span>
-      </div>
-      <div class="qbody"><img loading="lazy" src="imgs/${d.img}" alt="${d.year}學測自然第${d.q}題"></div>
-      <div class="ansbar">
-        <div>
-          <span class="anslabel">答案　</span>
-          <span class="ansval ${hidden?'hidden':''}">${ans}</span>
-        </div>
-        <a class="src" href="${srcUrl(d.year,0)}" target="_blank" rel="noopener">原卷 ↗</a>
-      </div>`;
-    if(!showAll && d.answer!=='／'){
-      const rev=card.querySelector('.ansval');
-      rev.addEventListener('click',()=>rev.classList.remove('hidden'));
+function filtered(){
+  return DATA.filter(q=>{
+    if(STATE.mode==='year'&&STATE.year!=='all'&&String(q.year)!==STATE.year)return false;
+    if(STATE.cat!=='all'&&q.category!==STATE.cat)return false;
+    if(STATE.abil!=='all'&&q.ability!==STATE.abil)return false;
+    if(STATE.search){
+      const s=STATE.search.toLowerCase();
+      const hay=(q.tags||[]).join(' ')+q.category+(q.knowledge||[]).join('')+q.ability+String(q.year);
+      if(!hay.toLowerCase().includes(s))return false;
     }
-    grid.appendChild(card);
+    return true;
   });
 }
+
+function catColor(c){return getComputedStyle(document.documentElement).getPropertyValue(CATVAR(c)).trim();}
+function render(){
+  const root=document.getElementById('content');root.innerHTML='';
+  const qs=filtered();
+  // mode switch chips visibility
+  document.getElementById('yearrow').style.display=STATE.mode==='year'?'flex':'none';
+  document.getElementById('catrow').style.display=STATE.mode==='kp'?'flex':'none';
+  const abilrow=document.getElementById('abilrow');
+  abilrow.style.display=STATE.mode==='kp'?'flex':'none';
+  if(qs.length===0){root.innerHTML='<div class="empty">沒有符合條件的題目</div>';return;}
+  if(STATE.mode==='year')renderYear(root,qs);else renderKP(root,qs);
+}
+
+function cardEl(q){
+  const c=document.createElement('div');c.className='card';c.dataset.k=`${q.year}_${q.q}`;
+  const head=document.createElement('div');head.className='qhead';
+  const no=document.createElement('span');no.className='qno';no.textContent=`${q.year}學測 第 ${q.q} 題`;head.appendChild(no);
+  const tc=document.createElement('span');tc.className='tagcat';tc.style.background=catColor(q.category);tc.textContent=q.category;head.appendChild(tc);
+  const ab=document.createElement('span');ab.className='abchip';ab.textContent=q.ability;head.appendChild(ab);
+  c.appendChild(head);
+  const kp=document.createElement('div');kp.className='kpchips';
+  (q.knowledge||[]).forEach(k=>{const s=document.createElement('span');s.className='kpchip';s.textContent=k;kp.appendChild(s);});
+  c.appendChild(kp);
+  const img=document.createElement('img');img.loading='lazy';img.src='imgs/'+q.img;img.style.width='100%';img.style.height='auto';img.style.borderRadius='6px';
+  c.appendChild(img);
+  const al=document.createElement('div');al.className='ansline';
+  const av=document.createElement('span');av.className='ansval'+(STATE.showall?'':' hidden');av.textContent=q.answer;
+  al.appendChild(av);
+  const bt=document.createElement('button');bt.className='ansbtn';bt.textContent='顯示答案';bt.onclick=()=>{av.classList.toggle('hidden');bt.textContent=av.classList.contains('hidden')?'顯示答案':'隱藏答案';};
+  al.appendChild(bt);
+  const tg=document.createElement('span');tg.style.cssText='font-size:11px;color:var(--muted);margin-left:auto';
+  tg.textContent='#'+(q.tags||[]).slice(0,4).join(' #');
+  al.appendChild(tg);
+  c.appendChild(al);
+  return c;
+}
+
+function renderYear(root,qs){
+  const byY={};
+  qs.forEach(q=>{(byY[q.year]=byY[q.year]||[]).push(q);});
+  Object.keys(byY).sort((a,b)=>b-a).forEach(y=>{
+    const g=document.createElement('div');g.className='group';
+    const h=document.createElement('div');h.className='group-head';
+    h.innerHTML=`<h2>${y} 學年度</h2><span class="cnt">${byY[y].length} 題</span>`;
+    g.appendChild(h);
+    const gr=document.createElement('div');gr.className='grid';
+    byY[y].forEach(q=>gr.appendChild(cardEl(q)));
+    g.appendChild(gr);
+    root.appendChild(g);
+  });
+}
+
+function renderKP(root,qs){
+  const byC={};qs.forEach(q=>{(byC[q.category]=byC[q.category]||[]).push(q);});
+  CATS.forEach(cat=>{
+    if(!byC[cat])return;
+    const g=document.createElement('div');g.className='group';
+    const h=document.createElement('div');h.className='group-head';
+    h.innerHTML=`<h2 style="color:${catColor(cat)}">${cat}</h2><span class="cnt">${byC[cat].length} 題</span>`;
+    g.appendChild(h);
+    // sub-group by knowledge point
+    const byK={};
+    byC[cat].forEach(q=>{q.knowledge.forEach(k=>{(byK[k]=byK[k]||[]).push(q);});});
+    Object.keys(byK).sort().forEach(k=>{
+      const sg=document.createElement('div');sg.className='subgroup';
+      const sh=document.createElement('h3');sh.innerHTML=`${k} <span class="n">(${byK[k].length})</span>`;
+      sg.appendChild(sh);
+      const gr=document.createElement('div');gr.className='grid';
+      // dedupe questions appearing in multiple KP
+      const seen=new Set();
+      byK[k].forEach(q=>{if(seen.has(q.year+'_'+q.q))return;seen.add(q.year+'_'+q.q);gr.appendChild(cardEl(q));});
+      sg.appendChild(gr);
+      g.appendChild(sg);
+    });
+    root.appendChild(g);
+  });
+}
+
+// mode switch
+document.getElementById('modeseg').addEventListener('click',e=>{
+  if(e.target.tagName!=='BUTTON')return;
+  STATE.mode=e.target.dataset.mode;
+  document.querySelectorAll('#modeseg button').forEach(b=>b.classList.toggle('on',b.dataset.mode===STATE.mode));
+  // reset sub-filters sensibly
+  if(STATE.mode==='year'){STATE.cat='all';}
+  document.getElementById('search').value='';STATE.search='';
+  buildChips();render();
+});
+document.getElementById('showall').addEventListener('click',function(){STATE.showall=!STATE.showall;this.classList.toggle('on',STATE.showall);this.textContent=STATE.showall?'隱藏全部答案':'顯示全部答案';render();});
+document.getElementById('search').addEventListener('input',e=>{STATE.search=e.target.value.trim();render();});
 </script>
 <script data-pplx-inline-edit>
 (function () {
